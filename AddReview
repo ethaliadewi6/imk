@@ -1,0 +1,322 @@
+#add review
+<!DOCTYPE html>
+<html>
+  <head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+    .add-review {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.add-review .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 1451px;
+  position: relative;
+}
+
+.add-review .overlap {
+  height: 865px;
+  top: 86px;
+  background-color: #c4994542;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.add-review .tambah-foto-produk {
+  position: absolute;
+  width: 196px;
+  height: 15px;
+  top: 572px;
+  left: 471px;
+}
+
+.add-review .review-produk {
+  position: absolute;
+  width: 141px;
+  height: 16px;
+  top: 39px;
+  left: 651px;
+}
+
+.add-review .tulis-ulasan {
+  position: absolute;
+  width: 114px;
+  height: 16px;
+  top: 234px;
+  left: 470px;
+}
+
+.add-review .tambahkan-rating {
+  position: absolute;
+  width: 177px;
+  height: 20px;
+  top: 103px;
+  left: 471px;
+}
+
+.add-review .ph-star {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 131px;
+  left: 610px;
+}
+
+.add-review .img {
+  left: 470px;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 131px;
+}
+
+.add-review .ph-star-2 {
+  left: 575px;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 131px;
+}
+
+.add-review .ph-star-3 {
+  left: 505px;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 131px;
+}
+
+.add-review .ph-star-4 {
+  left: 540px;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 131px;
+}
+
+.add-review .fluent-photo {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 592px;
+  left: 470px;
+}
+
+.add-review .shape-with-text {
+  position: absolute;
+  width: 500px;
+  height: 225px;
+  top: 3696px;
+  left: 1808px;
+}
+
+.add-review .material-symbols {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 21px;
+  left: 17px;
+}
+
+.add-review .overlap-group {
+  height: 326px;
+  top: 1125px;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.add-review .text-wrapper {
+  position: absolute;
+  width: 146px;
+  top: 47px;
+  left: 78px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.add-review .text-wrapper-2 {
+  position: absolute;
+  width: 319px;
+  top: 204px;
+  left: 78px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.add-review .text-wrapper-3 {
+  position: absolute;
+  width: 146px;
+  top: 100px;
+  left: 78px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.add-review .text-wrapper-4 {
+  position: absolute;
+  width: 194px;
+  top: 152px;
+  left: 78px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.add-review .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 326px;
+  top: 0;
+  left: 0;
+  background-color: #c4994542;
+}
+
+.add-review .text-wrapper-5 {
+  position: absolute;
+  width: 146px;
+  top: 47px;
+  left: 78px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.add-review .text-wrapper-6 {
+  position: absolute;
+  width: 319px;
+  top: 204px;
+  left: 78px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.add-review .text-wrapper-7 {
+  position: absolute;
+  width: 146px;
+  top: 100px;
+  left: 78px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #040404;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.add-review .text-wrapper-8 {
+  position: absolute;
+  width: 194px;
+  top: 152px;
+  left: 78px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.add-review .shape-with-text-2 {
+  position: absolute;
+  width: 163px;
+  height: 50px;
+  top: 4349px;
+  left: 1977px;
+}
+
+.add-review .submit {
+  position: absolute;
+  width: 67px;
+  height: 16px;
+  top: 1024px;
+  left: 687px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="add-review">
+      <div class="div">
+        <div class="overlap">
+          <img class="tambah-foto-produk" src="img/tambah-foto-produk.png" />
+          <img class="review-produk" src="img/review-produk.png" />
+          <img class="tulis-ulasan" src="img/tulis-ulasan.png" />
+          <img class="tambahkan-rating" src="img/tambahkan-rating.png" />
+          <img class="ph-star" src="img/ph-star-3.svg" />
+          <img class="img" src="img/ph-star-4.svg" />
+          <img class="ph-star-2" src="img/image.svg" />
+          <img class="ph-star-3" src="img/ph-star.svg" />
+          <img class="ph-star-4" src="img/ph-star-2.svg" />
+          <img class="fluent-photo" src="img/fluent-mdl2-photo-2-add.svg" />
+        </div>
+        <div class="overlap-group">
+          <a href="index.html">
+            <img class="material-symbols" src="IMK/home_button.jpg" />
+          </a>
+        </div>
+        <img class="shape-with-text" src="img/shape-with-text-2.svg" />
+        <img class="material-symbols" src="img/material-symbols-home.svg" />
+        <div class="overlap-group">
+          <div class="text-wrapper">Contact Us</div>
+          <div class="text-wrapper-2">Terms and Conditions</div>
+          <div class="text-wrapper-3">About Us</div>
+          <div class="text-wrapper-4">Privacy Policy</div>
+          <div class="text-wrapper">Contact Us</div>
+          <div class="text-wrapper-2">Terms and Conditions</div>
+          <div class="text-wrapper-3">About Us</div>
+          <div class="text-wrapper-4">Privacy Policy</div>
+          <div class="rectangle"></div>
+          <div class="text-wrapper">Contact Us</div>
+          <div class="text-wrapper-2">Terms and Conditions</div>
+          <div class="text-wrapper-3">About Us</div>
+          <div class="text-wrapper-4">Privacy Policy</div>
+          <div class="text-wrapper-5">Contact Us</div>
+          <div class="text-wrapper-6">Terms and Conditions</div>
+          <div class="text-wrapper-7">About Us</div>
+          <div class="text-wrapper-8">Privacy Policy</div>
+        </div>
+        <img class="shape-with-text-2" src="img/shape-with-text.svg" />
+        <img class="submit" src="img/submit.png" />
+      </div>
+    </div>
+  </body>
+</html>
