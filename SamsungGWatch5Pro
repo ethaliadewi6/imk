@@ -1,0 +1,313 @@
+#swg6pro
+
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+    .tvs {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.tvs .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 3500px;
+  position: relative;
+}
+
+.tvs .group {
+  position: absolute;
+  width: 263px;
+  height: 50px;
+  top: 3169px;
+  left: -580px;
+}
+
+.tvs .text-wrapper {
+  position: absolute;
+  width: 261px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.tvs .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 87px;
+  left: 0;
+  background-color: #000000;
+}
+
+.tvs .frame {
+  position: relative;
+  height: 524px;
+  overflow: hidden;
+  overflow-x: scroll;
+  background-image: url(./img/desain-tanpa-judul-50-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.tvs .desain-tanpa-judul {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 0;
+  left: 1440px;
+  object-fit: cover;
+}
+
+.tvs .samsung-galaxy-pro {
+  position: absolute;
+  width: 638px;
+  top: 648px;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.tvs .samsung-galaxy {
+  position: absolute;
+  width: 408px;
+  top: 1277px;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.22px;
+  line-height: 24px;
+}
+
+.tvs .text-wrapper-2 {
+  position: absolute;
+  width: 473px;
+  top: 807px;
+  left: 118px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: -0.28px;
+  line-height: 24px;
+}
+
+.tvs .dimensi-x {
+  position: absolute;
+  width: 1104px;
+  height: 641px;
+  top: 1349px;
+  left: 118px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18.9px;
+  letter-spacing: 0.23px;
+  line-height: 29px;
+}
+
+.tvs .span {
+  font-weight: 500;
+}
+
+.tvs .text-wrapper-3 {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.tvs .overlap-group {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 854px;
+  left: 118px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.tvs .image-removebg {
+  position: absolute;
+  width: 225px;
+  height: 169px;
+  top: 117px;
+  left: 49px;
+  object-fit: cover;
+}
+
+.tvs .heading-reviews-wrapper {
+  position: absolute;
+  width: 1440px;
+  height: 75px;
+  top: 2563px;
+  left: 0;
+  background-color: #000000;
+}
+
+.tvs .heading-reviews {
+  position: absolute;
+  width: 154px;
+  height: 50px;
+  top: 11px;
+  left: 643px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 37.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 45.6px;
+  white-space: nowrap;
+}
+
+.tvs .material-symbols {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 17px;
+  left: 17px;
+}
+
+.tvs .overlap-group-2 {
+  position: absolute;
+  width: 1440px;
+  height: 326px;
+  top: 3174px;
+  left: 0;
+  background-color: #000000;
+}
+
+.tvs .text-wrapper-4 {
+  position: absolute;
+  width: 146px;
+  top: 57px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tvs .overlap-2 {
+  position: absolute;
+  width: 319px;
+  height: 106px;
+  top: 162px;
+  left: 75px;
+}
+
+.tvs .text-wrapper-5 {
+  position: absolute;
+  width: 319px;
+  top: 52px;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tvs .text-wrapper-6 {
+  position: absolute;
+  width: 194px;
+  top: 0;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tvs .text-wrapper-7 {
+  position: absolute;
+  width: 146px;
+  top: 110px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="tvs">
+      <div class="div">
+        <div class="group"><div class="text-wrapper">Show More</div></div>
+        <div class="overlap">
+          <div class="frame"><img class="desain-tanpa-judul" src="img/desain-tanpa-judul-49-1.png" /></div>
+        </div>
+        <div class="samsung-galaxy-pro">Samsung Galaxy 5 Pro<br /><br />Ro6.499.000</div>
+        <div class="samsung-galaxy">Samsung Galaxy Watch6<br />Rp3.999.000</div>
+        <div class="text-wrapper-2">Rekomendasi Produk Serupa</div>
+        <p class="dimensi-x">
+          <span class="span"><br /></span>
+          <span class="text-wrapper-3">Dimensi<br /></span>
+          <span class="span">45.4 x 45.4 x 10.5 mm<br /></span>
+          <span class="text-wrapper-3">Berat<br /></span>
+          <span class="span">46.5 g<br /></span>
+          <span class="text-wrapper-3">Layar<br /></span>
+          <span class="span">Super AMOLED, 1.4 inci<br /></span>
+          <span class="text-wrapper-3">Resolusi<br /></span>
+          <span class="span">450 x 450 piksel<br /></span>
+          <span class="text-wrapper-3">Proteksi layar<br /></span>
+          <span class="span">Sapphire crystal<br /></span>
+          <span class="text-wrapper-3">Sistem operasi<br /></span>
+          <span class="span">Android Wear OS 4, One UI Watch 5<br /></span>
+          <span class="text-wrapper-3">Chipset<br /></span>
+          <span class="span">Exynos W920<br /></span>
+          <span class="text-wrapper-3">Memori internal<br /></span>
+          <span class="span">16 GB<br /></span>
+          <span class="text-wrapper-3">Baterai<br /></span>
+          <span class="span">Li-Ion 590 mAh, non-removable<br /></span>
+          <span class="text-wrapper-3">Warna<br /></span>
+          <span class="span">Black Titanium, Gray Titanium<br /></span>
+          <span class="text-wrapper-3">Konektivitas<br /></span>
+          <span class="span">Wi-Fi 802.11 a/b/g/n, Bluetooth 5.2, GPS, NFC<br /></span>
+        </p>
+        <div class="overlap-group"><img class="image-removebg" src="img/image-removebg-preview-36-1.png" /></div>
+        <div class="heading-reviews-wrapper"><div class="heading-reviews">Reviews</div></div>
+        <img class="material-symbols" src="img/material-symbols-home.svg" />
+        <div class="overlap-group-2">
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="overlap-2">
+            <div class="text-wrapper-5">Terms and Conditions</div>
+            <div class="text-wrapper-6">Privacy Policy</div>
+          </div>
+          <div class="text-wrapper-7">About Us</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
