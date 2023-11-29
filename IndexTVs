@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+ .desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 3300px;
+  position: relative;
+}
+
+.desktop .overlap {
+  position: absolute;
+  width: 1441px;
+  height: 752px;
+  top: 75px;
+  left: -1px;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 228px;
+  left: 1px;
+  background-color: #000000;
+}
+
+.desktop .frame {
+  position: absolute;
+  width: 1441px;
+  height: 524px;
+  top: 228px;
+  left: 0;
+  overflow: hidden;
+  overflow-x: scroll;
+  background-image: url(./img/image-4.png);
+  background-size: 100% 100%;
+}
+
+.desktop .webimage {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 0;
+  left: 1441px;
+}
+
+.desktop .rectangle-2 {
+  position: absolute;
+  width: 1440px;
+  height: 123px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.desktop .rating {
+  position: absolute;
+  width: 311px;
+  height: 237px;
+  top: 44px;
+  left: 1003px;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  width: 308px;
+  height: 49px;
+  left: 3px;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  width: 171px;
+  top: 5px;
+  left: 25px;
+  font-family: "Inria Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.22px;
+  line-height: 24px;
+}
+
+.desktop .button {
+  position: absolute;
+  width: 308px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+  border: 2px solid;
+  border-color: #000000;
+}
+
+.desktop .span-menu-select {
+  position: absolute;
+  width: 234px;
+  height: 17px;
+  top: 12px;
+  left: 25px;
+}
+
+.desktop .SVG {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  left: 276px;
+}
+
+.desktop .harga {
+  position: absolute;
+  width: 309px;
+  height: 159px;
+  top: 44px;
+  left: 566px;
+}
+
+.desktop .div-menu {
+  width: 308px;
+  height: 40px;
+}
+
+.desktop .overlap-2 {
+  position: relative;
+  height: 40px;
+  border-radius: 24px;
+}
+
+.desktop .overlap-group-wrapper {
+  position: absolute;
+  width: 308px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+  border: 2px solid;
+  border-color: #000000;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.desktop .overlap-group-2 {
+  position: relative;
+  width: 234px;
+  height: 44px;
+  top: 4px;
+  left: 25px;
+}
+
+.desktop .span-menu-select-2 {
+  position: absolute;
+  width: 234px;
+  height: 17px;
+  top: 8px;
+  left: 0;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  width: 171px;
+  top: 0;
+  left: 0;
+  font-family: "Inria Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.22px;
+  line-height: 24px;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  left: 268px;
+}
+
+.desktop .overlap-3 {
+  position: absolute;
+  width: 1440px;
+  height: 75px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+}
+
+.desktop .material-symbols {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 13px;
+  left: 15px;
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  width: 383px;
+  top: 24px;
+  left: 528px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.desktop .overlap-4 {
+  position: absolute;
+  width: 1360px;
+  height: 524px;
+  top: 962px;
+  left: 38px;
+  background-color: #000000;
+}
+
+.desktop .image-removebg {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 137px;
+  left: 530px;
+  object-fit: cover;
+}
+
+.desktop .image {
+  top: 159px;
+  left: 1015px;
+  position: absolute;
+  width: 275px;
+  height: 206px;
+  object-fit: cover;
+}
+
+.desktop .image-removebg-2 {
+  position: absolute;
+  width: 250px;
+  height: 152px;
+  top: 186px;
+  left: 105px;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  width: 285px;
+  top: 915px;
+  left: -21px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.desktop .text-wrapper-5 {
+  position: absolute;
+  width: 285px;
+  top: 1574px;
+  left: 577px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.desktop .text-wrapper-6 {
+  position: absolute;
+  width: 285px;
+  top: 256px;
+  left: -21px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.desktop .image-removebg-wrapper {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 1677px;
+  left: 728px;
+  background-color: #000000;
+}
+
+.desktop .image-removebg-3 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 77px;
+  left: 38px;
+  object-fit: cover;
+}
+
+.desktop .img-wrapper {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 1677px;
+  left: 1073px;
+  background-color: #000000;
+}
+
+.desktop .image-wrapper {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 2173px;
+  left: 38px;
+  background-color: #000000;
+}
+
+.desktop .image-2 {
+  top: 99px;
+  left: 25px;
+  position: absolute;
+  width: 275px;
+  height: 206px;
+  object-fit: cover;
+}
+
+.desktop .overlap-5 {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 2173px;
+  left: 383px;
+  background-color: #000000;
+}
+
+.desktop .image-3 {
+  top: 99px;
+  left: 35px;
+  position: absolute;
+  width: 275px;
+  height: 206px;
+  object-fit: cover;
+}
+
+.desktop .overlap-6 {
+  position: absolute;
+  width: 1440px;
+  height: 326px;
+  top: 2974px;
+  left: 0;
+  background-color: #000000;
+}
+
+.desktop .text-wrapper-7 {
+  position: absolute;
+  width: 146px;
+  top: 44px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-7 {
+  position: absolute;
+  width: 319px;
+  height: 106px;
+  top: 149px;
+  left: 75px;
+}
+
+.desktop .text-wrapper-8 {
+  position: absolute;
+  width: 319px;
+  top: 52px;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-9 {
+  position: absolute;
+  width: 194px;
+  top: 0;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-10 {
+  position: absolute;
+  width: 146px;
+  top: 97px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-8 {
+  position: absolute;
+  width: 910px;
+  height: 185px;
+  top: 2587px;
+  left: 39px;
+}
+
+.desktop .div-wrapper {
+  position: absolute;
+  width: 443px;
+  height: 174px;
+  top: 11px;
+  left: 467px;
+}
+
+.desktop .overlap-group-3 {
+  position: relative;
+  width: 307px;
+  height: 54px;
+  top: 33px;
+  left: 68px;
+  background-image: url(./img/rectangle-74.svg);
+  background-size: 100% 100%;
+}
+
+.desktop .text-wrapper-11 {
+  position: absolute;
+  width: 242px;
+  height: 24px;
+  top: 14px;
+  left: 36px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .TCL-QLED-SMART {
+  position: absolute;
+  width: 408px;
+  top: 0;
+  left: 344px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.17px;
+  line-height: 24px;
+}
+
+.desktop .TCL-UHD-TV {
+  position: absolute;
+  width: 408px;
+  top: 3px;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.17px;
+  line-height: 24px;
+}
+
+.desktop .overlap-9 {
+  position: absolute;
+  width: 1439px;
+  height: 50px;
+  top: 2091px;
+  left: 42px;
+}
+
+.desktop .samsung-TV-class {
+  position: absolute;
+  width: 408px;
+  top: 0;
+  left: 341px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.17px;
+  line-height: 24px;
+}
+
+.desktop .p {
+  position: absolute;
+  width: 408px;
+  top: 4px;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.17px;
+  line-height: 24px;
+}
+
+.desktop .LG-OLED-evo {
+  position: absolute;
+  width: 408px;
+  top: 4px;
+  left: 1031px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.17px;
+  line-height: 24px;
+}
+
+.desktop .LG-OLED-evo-g-k {
+  position: absolute;
+  width: 408px;
+  top: 4px;
+  left: 686px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.17px;
+  line-height: 24px;
+}
+       
+    </style>
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="div">
+        <div class="overlap">
+          <div class="rectangle"></div>
+          <div class="rectangle"></div>
+          <div class="frame"><img class="webimage" src="img/webimage-9e80f557-ab66-4e71-a9e4435f2eecd712-1.png" /></div>
+          <div class="rectangle-2"></div>
+          <div class="rating">
+            <div class="overlap-group">
+              <div class="text-wrapper">Rating</div>
+              <div class="button">
+                <div class="span-menu-select"></div>
+                <img class="SVG" src="img/SVG.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="harga">
+            <div class="div-menu">
+              <div class="overlap-2">
+                <button class="overlap-group-wrapper">
+                  <div class="overlap-group-2">
+                    <div class="span-menu-select-2"></div>
+                    <div class="text-wrapper-2">Harga</div>
+                  </div>
+                </button>
+                <img class="img" src="img/image.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlap-3">
+          <img class="material-symbols" src="img/material-symbols-home.svg" />
+          <div class="text-wrapper-3">Tvs</div>
+        </div>
+        <div class="overlap-4">
+          <img class="image-removebg" src="img/image-removebg-preview-8-2.png" />
+          <img class="image" src="img/image-15.png" />
+          <img class="image-removebg-2" src="img/image-removebg-preview-7-2.png" />
+        </div>
+        <div class="text-wrapper-4">New Arrival</div>
+        <div class="text-wrapper-5">All Products</div>
+        <div class="text-wrapper-6">Best Seller</div>
+        <div class="image-removebg-wrapper">
+          <img class="image-removebg-3" src="img/image-removebg-preview-8-1.png" />
+        </div>
+        <div class="img-wrapper"><img class="image-removebg-3" src="img/image-removebg-preview-9-1.png" /></div>
+        <div class="image-wrapper"><img class="image-2" src="img/image-12.png" /></div>
+        <div class="overlap-5"><img class="image-3" src="img/image-14.png" /></div>
+        <div class="overlap-6">
+          <div class="text-wrapper-7">Contact Us</div>
+          <div class="overlap-7">
+            <div class="text-wrapper-8">Terms and Conditions</div>
+            <div class="text-wrapper-9">Privacy Policy</div>
+          </div>
+          <div class="text-wrapper-10">About Us</div>
+        </div>
+        <div class="overlap-8">
+          <div class="div-wrapper">
+            <div class="overlap-group-3"><div class="text-wrapper-11">Selengkapnya</div></div>
+          </div>
+          <p class="TCL-QLED-SMART">TCL C645 QLED SMART TV<br />Rp13.999.000</p>
+          <p class="TCL-UHD-TV">TCL 98P745 4K UHD TV<br />Rp53.499.000</p>
+        </div>
+        <div class="overlap-9">
+          <p class="samsung-TV-class">Samsung TV Class OLED S90C<br />Rp18.190.000</p>
+          <p class="p">Samsung TV Class OLED S95C<br />Rp33.999.000</p>
+          <p class="LG-OLED-evo">LG OLED evo C3 4K Smart TV 2023<br />Rp13.650.000</p>
+          <p class="LG-OLED-evo-g-k">LG OLED evo G3 4K Smart TV 2023<br />Rp40.000.000</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
