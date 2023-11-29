@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+        .tablets {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.tablets .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 3500px;
+  position: relative;
+}
+
+.tablets .group {
+  position: absolute;
+  width: 263px;
+  height: 50px;
+  top: 3169px;
+  left: -580px;
+}
+
+.tablets .text-wrapper {
+  position: absolute;
+  width: 261px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.tablets .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 87px;
+  left: 0;
+  background-color: #000000;
+}
+
+.tablets .image {
+  width: 700px;
+  height: 350px;
+  top: 87px;
+  left: 320px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.tablets .huawei-matepad {
+  position: absolute;
+  width: 509px;
+  top: 648px;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.tablets .huawei-matepad-pro {
+  position: absolute;
+  width: 408px;
+  top: 1277px;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.22px;
+  line-height: 24px;
+}
+
+.tablets .text-wrapper-2 {
+  position: absolute;
+  width: 473px;
+  top: 807px;
+  left: 118px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: -0.28px;
+  line-height: 24px;
+}
+
+.tablets .dimensi-x {
+  position: absolute;
+  width: 1104px;
+  height: 904px;
+  top: 1343px;
+  left: 120px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18.9px;
+  letter-spacing: 0.23px;
+  line-height: 29px;
+}
+
+.tablets .span {
+  font-weight: 500;
+}
+
+.tablets .text-wrapper-3 {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.tablets .overlap-group {
+  position: absolute;
+  width: 400px;
+  height: 404px;
+  top: 854px;
+  left: 81px;
+}
+
+.tablets .rectangle {
+  width: 325px;
+  height: 404px;
+  left: 37px;
+  border: 1px solid;
+  border-color: #000000;
+  position: absolute;
+  top: 0;
+}
+
+.tablets .img {
+  width: 400px;
+  height: 200px;
+  top: 102px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.tablets .heading-reviews-wrapper {
+  position: absolute;
+  width: 1440px;
+  height: 75px;
+  top: 2563px;
+  left: 0;
+  background-color: #000000;
+}
+
+.tablets .heading-reviews {
+  position: absolute;
+  width: 154px;
+  height: 50px;
+  top: 11px;
+  left: 643px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 37.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 45.6px;
+  white-space: nowrap;
+}
+
+.tablets .material-symbols {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 17px;
+  left: 17px;
+}
+
+.tablets .overlap-2 {
+  position: absolute;
+  width: 1440px;
+  height: 326px;
+  top: 3178px;
+  left: 0;
+}
+
+.tablets .text-wrapper-4 {
+  position: absolute;
+  width: 146px;
+  top: 57px;
+  left: 78px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tablets .text-wrapper-5 {
+  position: absolute;
+  width: 319px;
+  top: 214px;
+  left: 78px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tablets .text-wrapper-6 {
+  position: absolute;
+  width: 146px;
+  top: 110px;
+  left: 78px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tablets .text-wrapper-7 {
+  position: absolute;
+  width: 194px;
+  top: 162px;
+  left: 78px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tablets .text-wrapper-8 {
+  top: 41px;
+  left: 78px;
+  position: absolute;
+  width: 146px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tablets .text-wrapper-9 {
+  top: 198px;
+  left: 78px;
+  position: absolute;
+  width: 319px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tablets .text-wrapper-10 {
+  top: 94px;
+  left: 78px;
+  position: absolute;
+  width: 146px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tablets .text-wrapper-11 {
+  top: 146px;
+  left: 78px;
+  position: absolute;
+  width: 194px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tablets .rectangle-2 {
+  width: 1440px;
+  height: 326px;
+  left: 0;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+}
+
+.tablets .text-wrapper-12 {
+  top: 44px;
+  left: 75px;
+  position: absolute;
+  width: 146px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tablets .text-wrapper-13 {
+  top: 201px;
+  left: 75px;
+  position: absolute;
+  width: 319px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tablets .text-wrapper-14 {
+  top: 97px;
+  left: 75px;
+  position: absolute;
+  width: 146px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tablets .text-wrapper-15 {
+  top: 149px;
+  left: 75px;
+  position: absolute;
+  width: 194px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tablets .div-jsx {
+  position: absolute;
+  width: 67px;
+  height: 50px;
+  top: 3035px;
+  left: 151px;
+}
+
+.tablets .text-wrapper-16 {
+  position: absolute;
+  width: 67px;
+  height: 16px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 14.9px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.tablets .div-jsx-2 {
+  position: absolute;
+  width: 500px;
+  height: 161px;
+  top: 2658px;
+  left: 870px;
+}
+
+.tablets .overlap-group-2 {
+  position: absolute;
+  width: 532px;
+  height: 127px;
+  top: 14px;
+  left: -78px;
+}
+
+.tablets .icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 78px;
+}
+
+.tablets .icon-2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 101px;
+}
+
+.tablets .icon-3 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 123px;
+}
+
+.tablets .div-jsx-3 {
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  top: 34px;
+  left: 78px;
+}
+
+.tablets .text-wrapper-17 {
+  position: absolute;
+  width: 195px;
+  height: 16px;
+  top: 35px;
+  left: 111px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #454f5b;
+  font-size: 14.9px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.tablets .abis-move-dari-PM {
+  position: absolute;
+  width: 454px;
+  height: 19px;
+  top: 93px;
+  left: 78px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #454f5b;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tablets .div-jsx-4 {
+  position: absolute;
+  width: 133px;
+  height: 126px;
+  top: 1px;
+  left: 0;
+}
+
+.tablets .div-jsx-5 {
+  position: absolute;
+  width: 67px;
+  height: 50px;
+  top: 76px;
+  left: 0;
+}
+
+.tablets .p-jsx {
+  position: absolute;
+  width: 67px;
+  height: 22px;
+  top: 24px;
+  left: 0;
+}
+
+.tablets .text-wrapper-18 {
+  position: absolute;
+  width: 45px;
+  height: 16px;
+  top: 2px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #637381;
+  font-size: 12.6px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.tablets .vector {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 13px;
+  left: -2px;
+}
+
+.tablets .icon-4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 14px;
+  left: 68px;
+}
+
+.tablets .icon-5 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 14px;
+  left: 90px;
+}
+
+.tablets .div-jsx-6 {
+  position: absolute;
+  width: 500px;
+  height: 161px;
+  top: 2657px;
+  left: 183px;
+}
+
+.tablets .button-lihat {
+  position: absolute;
+  width: 189px;
+  height: 40px;
+  top: 2860px;
+  left: 642px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.tablets .text-wrapper-19 {
+  position: absolute;
+  width: 121px;
+  height: 19px;
+  top: 9px;
+  left: 24px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.tablets .SVG {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  left: 149px;
+}
+
+.tablets .icon-6 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2990px;
+  left: 148px;
+}
+
+.tablets .icon-7 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2990px;
+  left: 183px;
+}
+
+.tablets .icon-8 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2990px;
+  left: 218px;
+}
+
+.tablets .icon-9 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2990px;
+  left: 253px;
+}
+
+.tablets .icon-10 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2990px;
+  left: 288px;
+}
+
+.tablets .div-wrapper {
+  position: absolute;
+  width: 189px;
+  height: 40px;
+  top: 2935px;
+  left: 151px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.tablets .text-wrapper-20 {
+  position: absolute;
+  width: 121px;
+  height: 19px;
+  top: 10px;
+  left: 34px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19px;
+  white-space: nowrap;
+}
+    </style>
+  </head>
+  <body>
+    <div class="tablets">
+      <div class="div">
+        <div class="group"><div class="text-wrapper">Show More</div></div>
+        <div class="overlap"><img class="image" src="img/image-5.png" /></div>
+        <div class="huawei-matepad">Huawei Matepad 11.5<br /><br />Rp5.499.000</div>
+        <div class="huawei-matepad-pro">Huawei Matepad Pro<br />Ro6.999.000</div>
+        <div class="text-wrapper-2">Rekomendasi Produk Serupa</div>
+        <p class="dimensi-x">
+          <span class="span"><br /></span>
+          <span class="text-wrapper-3">Dimensi<br /></span>
+          <span class="span">260.88 x 176.82 x 6.85 mm<br /></span>
+          <span class="text-wrapper-3">Berat<br /></span>
+          <span class="span">Kira-kira 499 g (termasuk baterai)<br /></span>
+          <span class="text-wrapper-3">Layar<br /></span>
+          <span class="span"
+            >TFT (IPS), 120 Hz, 11.5 inci, 2200 x 1440 piksel, rasio 4:3, kerapatan ~229 ppi, kecepatan refresh cerdas
+            60/120 Hz, multi-sentuh, mendukung maksimal 10 titik kontak selama sentuhan<br
+          /></span>
+          <span class="text-wrapper-3">Sistem Operasi<br /></span>
+          <span class="span">HarmonyOS 3.1<br /></span>
+          <span class="text-wrapper-3">Chipset<br /></span>
+          <span class="span">Qualcomm Snapdragon 7 Gen 1 Mobile Platform<br /></span>
+          <span class="text-wrapper-3">CPU<br /></span>
+          <span class="span"
+            >Octa-core (1x2.4 GHz Cortex-A710 &amp; 3x2.36 GHz Cortex-A710 &amp; 4x1.8 GHz Cortex-A510)<br
+          /></span>
+          <span class="text-wrapper-3">GPU<br /></span>
+          <span class="span">Adreno 644<br /></span>
+          <span class="text-wrapper-3">RAM<br /></span>
+          <span class="span">8 GB<br /></span>
+          <span class="text-wrapper-3">Penyimpanan Internal<br /></span>
+          <span class="span">128 GB<br /></span>
+          <span class="text-wrapper-3">Kamera Utama<br /></span>
+          <span class="span">Dual 13 MP (wide) + 8 MP (ultrawide), 4K@30fps, 1080p@30fps<br /></span>
+          <span class="text-wrapper-3">Kamera Depan<br /></span>
+          <span class="span">8 MP (ultrawide), video<br /></span>
+          <span class="text-wrapper-3">Baterai<br /></span>
+          <span class="span">7,700 mAh, pengisian cepat 10V/2.25A<br /></span>
+          <span class="text-wrapper-3">Warna<br /></span>
+          <span class="span">Space Gray<br /></span>
+          <span class="text-wrapper-3">Lainnya<br /></span>
+          <span class="span"
+            >IP68 tahan debu/air (hingga 1,5m selama 30 menit), stylus, speaker stereo, USB Type-C, konektivitas Wi-Fi
+            802.11 a/b/g/n/ac/ax, dual-band, Wi-Fi Direct, Bluetooth 5.2, A2DP, LE, GPS, GLONASS, GALILEO, sensor sidik
+            jari (di atas layar), accelerometer, gyro, proximity, compass, barometer<br
+          /></span>
+        </p>
+        <div class="overlap-group">
+          <div class="rectangle"></div>
+          <img class="img" src="img/image-7.png" />
+        </div>
+        <div class="heading-reviews-wrapper"><div class="heading-reviews">Reviews</div></div>
+        <img class="material-symbols" src="img/material-symbols-home.svg" />
+        <div class="overlap-2">
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="text-wrapper-5">Terms and Conditions</div>
+          <div class="text-wrapper-6">About Us</div>
+          <div class="text-wrapper-7">Privacy Policy</div>
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="text-wrapper-5">Terms and Conditions</div>
+          <div class="text-wrapper-6">About Us</div>
+          <div class="text-wrapper-7">Privacy Policy</div>
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="text-wrapper-5">Terms and Conditions</div>
+          <div class="text-wrapper-6">About Us</div>
+          <div class="text-wrapper-7">Privacy Policy</div>
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="text-wrapper-5">Terms and Conditions</div>
+          <div class="text-wrapper-6">About Us</div>
+          <div class="text-wrapper-7">Privacy Policy</div>
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="text-wrapper-5">Terms and Conditions</div>
+          <div class="text-wrapper-6">About Us</div>
+          <div class="text-wrapper-7">Privacy Policy</div>
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="text-wrapper-5">Terms and Conditions</div>
+          <div class="text-wrapper-6">About Us</div>
+          <div class="text-wrapper-7">Privacy Policy</div>
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="text-wrapper-5">Terms and Conditions</div>
+          <div class="text-wrapper-6">About Us</div>
+          <div class="text-wrapper-7">Privacy Policy</div>
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="text-wrapper-5">Terms and Conditions</div>
+          <div class="text-wrapper-6">About Us</div>
+          <div class="text-wrapper-7">Privacy Policy</div>
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="text-wrapper-5">Terms and Conditions</div>
+          <div class="text-wrapper-6">About Us</div>
+          <div class="text-wrapper-7">Privacy Policy</div>
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="text-wrapper-5">Terms and Conditions</div>
+          <div class="text-wrapper-6">About Us</div>
+          <div class="text-wrapper-7">Privacy Policy</div>
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="text-wrapper-5">Terms and Conditions</div>
+          <div class="text-wrapper-6">About Us</div>
+          <div class="text-wrapper-7">Privacy Policy</div>
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="text-wrapper-5">Terms and Conditions</div>
+          <div class="text-wrapper-6">About Us</div>
+          <div class="text-wrapper-7">Privacy Policy</div>
+          <div class="text-wrapper-8">Contact Us</div>
+          <div class="text-wrapper-9">Terms and Conditions</div>
+          <div class="text-wrapper-10">About Us</div>
+          <div class="text-wrapper-11">Privacy Policy</div>
+          <div class="rectangle-2"></div>
+          <div class="text-wrapper-12">Contact Us</div>
+          <div class="text-wrapper-13">Terms and Conditions</div>
+          <div class="text-wrapper-14">About Us</div>
+          <div class="text-wrapper-15">Privacy Policy</div>
+        </div>
+        <div class="div-jsx"><div class="text-wrapper-16">Rating</div></div>
+        <div class="div-jsx-2">
+          <div class="overlap-group-2">
+            <img class="icon" src="img/icon-9.svg" />
+            <img class="icon-2" src="img/icon-5.svg" />
+            <img class="icon-3" src="img/icon-10.svg" />
+            <img class="div-jsx-3" src="img/div-jsx-3348615074-2.svg" />
+            <div class="text-wrapper-17">Recommends this product!</div>
+            <p class="abis-move-dari-PM">
+              abis move dari 14 PM ke 15 PM entah ya berasa lebih smooth dan irit baterai aja.<br />Kameranya hampir
+              mirip cuman beda zoom di lensa 1x yang 32mm sama 28 mm dan 5x.<br />Layar nya lebih luas dikit dan paling
+              jelas RINGAN
+            </p>
+            <div class="div-jsx-4">
+              <div class="div-jsx-5">
+                <div class="text-wrapper-16">belinda</div>
+                <div class="p-jsx"><div class="text-wrapper-18">28-10</div></div>
+              </div>
+              <img class="vector" src="img/vector-2.svg" />
+            </div>
+          </div>
+          <img class="icon-4" src="img/icon-14.svg" />
+          <img class="icon-5" src="img/icon-3.svg" />
+        </div>
+        <div class="div-jsx-6">
+          <div class="overlap-group-2">
+            <img class="icon" src="img/icon-4.svg" />
+            <img class="icon-2" src="img/icon-8.svg" />
+            <img class="icon-3" src="img/icon-7.svg" />
+            <img class="div-jsx-3" src="img/div-jsx-3348615074.svg" />
+            <div class="text-wrapper-17">Recommends this product!</div>
+            <p class="abis-move-dari-PM">
+              abis move dari 14 PM ke 15 PM entah ya berasa lebih smooth dan irit baterai aja.<br />Kameranya hampir
+              mirip cuman beda zoom di lensa 1x yang 32mm sama 28 mm dan 5x.<br />Layar nya lebih luas dikit dan paling
+              jelas RINGAN
+            </p>
+            <div class="div-jsx-4">
+              <div class="div-jsx-5">
+                <div class="text-wrapper-16">belinda</div>
+                <div class="p-jsx"><div class="text-wrapper-18">28-10</div></div>
+              </div>
+              <img class="vector" src="img/vector.svg" />
+            </div>
+          </div>
+          <img class="icon-4" src="img/icon.svg" />
+          <img class="icon-5" src="img/icon-13.svg" />
+        </div>
+        <div class="button-lihat">
+          <div class="text-wrapper-19">Lihat selengkapnya</div>
+          <img class="SVG" src="img/SVG.svg" />
+        </div>
+        <img class="icon-6" src="img/icon-11.svg" />
+        <img class="icon-7" src="img/icon-2.svg" />
+        <img class="icon-8" src="img/icon-6.svg" />
+        <img class="icon-9" src="img/icon-12.svg" />
+        <img class="icon-10" src="img/image.svg" />
+        <div class="div-wrapper"><div class="text-wrapper-20">Add Review</div></div>
+      </div>
+    </div>
+  </body>
+</html>
