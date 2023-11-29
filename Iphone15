@@ -1,0 +1,363 @@
+#Iphone 15
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+    .smartphones {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.smartphones .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 3500px;
+  position: relative;
+}
+
+.smartphones .group {
+  position: absolute;
+  width: 263px;
+  height: 50px;
+  top: 3169px;
+  left: -580px;
+}
+
+.smartphones .text-wrapper {
+  position: absolute;
+  width: 261px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.smartphones .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 87px;
+  left: 0;
+  background-color: #000000;
+}
+
+.smartphones .frame {
+  position: relative;
+  height: 524px;
+  overflow: hidden;
+  overflow-x: scroll;
+  background-image: url(./img/desain-tanpa-judul-15-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.smartphones .desain-tanpa-judul {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 0;
+  left: 1440px;
+  object-fit: cover;
+}
+
+.smartphones .img {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 0;
+  left: 2880px;
+  object-fit: cover;
+}
+
+.smartphones .desain-tanpa-judul-2 {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 0;
+  left: 4320px;
+  object-fit: cover;
+}
+
+.smartphones .desain-tanpa-judul-3 {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 0;
+  left: 5760px;
+  object-fit: cover;
+}
+
+.smartphones .iphone {
+  position: absolute;
+  width: 408px;
+  top: 648px;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.smartphones .iphone-pro {
+  position: absolute;
+  width: 408px;
+  top: 1277px;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.22px;
+  line-height: 24px;
+}
+
+.smartphones .text-wrapper-2 {
+  position: absolute;
+  width: 473px;
+  top: 807px;
+  left: 118px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: -0.28px;
+  line-height: 24px;
+}
+
+.smartphones .spesifikasi-dimensi {
+  position: absolute;
+  width: 1104px;
+  height: 851px;
+  top: 1343px;
+  left: 117px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18.9px;
+  letter-spacing: 0.23px;
+  line-height: 29px;
+}
+
+.smartphones .span {
+  font-weight: 700;
+}
+
+.smartphones .text-wrapper-3 {
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+}
+
+.smartphones .overlap {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 854px;
+  left: 118px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.smartphones .apple-iphone-pro {
+  position: absolute;
+  width: 212px;
+  height: 212px;
+  top: 95px;
+  left: 56px;
+  object-fit: cover;
+}
+
+.smartphones .heading-reviews-wrapper {
+  position: absolute;
+  width: 1440px;
+  height: 75px;
+  top: 2563px;
+  left: 0;
+  background-color: #000000;
+}
+
+.smartphones .heading-reviews {
+  position: absolute;
+  width: 154px;
+  height: 50px;
+  top: 11px;
+  left: 643px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 37.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 45.6px;
+  white-space: nowrap;
+}
+
+.smartphones .material-symbols {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 17px;
+  left: 17px;
+}
+
+.smartphones .overlap-2 {
+  position: absolute;
+  width: 1440px;
+  height: 326px;
+  top: 3174px;
+  left: 0;
+  background-color: #000000;
+}
+
+.smartphones .text-wrapper-4 {
+  position: absolute;
+  width: 146px;
+  top: 44px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.smartphones .overlap-3 {
+  position: absolute;
+  width: 319px;
+  height: 106px;
+  top: 149px;
+  left: 75px;
+}
+
+.smartphones .text-wrapper-5 {
+  position: absolute;
+  width: 319px;
+  top: 52px;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.smartphones .text-wrapper-6 {
+  position: absolute;
+  width: 194px;
+  top: 0;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.smartphones .text-wrapper-7 {
+  position: absolute;
+  width: 146px;
+  top: 97px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="smartphones">
+      <div class="div">
+        <div class="group"><div class="text-wrapper">Show More</div></div>
+        <div class="overlap-group">
+          <div class="frame">
+            <img class="desain-tanpa-judul" src="img/desain-tanpa-judul-13-1.png" />
+            <img class="img" src="img/desain-tanpa-judul-11-1.png" />
+            <img class="desain-tanpa-judul-2" src="img/desain-tanpa-judul-9-1.png" />
+            <img class="desain-tanpa-judul-3" src="img/desain-tanpa-judul-7-1.png" />
+          </div>
+        </div>
+        <div class="overlap-group">
+          <a href="index.html">
+            <img class="material-symbols" src="IMK/home_button.jpg" />
+          </a>
+        </div>
+        <div class="iphone">Iphone 15<br /><br />16.499.000</div>
+        <div class="iphone-pro">Iphone 15 Pro<br />Rp20.999.000</div>
+        <div class="text-wrapper-2">Rekomendasi Produk Serupa</div>
+        <p class="spesifikasi-dimensi">
+          <span class="span">Spesifikasi<br /></span>
+          <span class="text-wrapper-3">Dimensi dan bobot<br />146,6 x 70,6 x 8,25 mm, 187 gram<br /></span>
+          <span class="span">Layar<br /></span>
+          <span class="text-wrapper-3"
+            >Super Retina XDR Display 6,1 inci, resolusi 2.556 x 1.179 piksel, kerapatan piksel 460 ppi, kecerahan
+            hingga 1.000 nits, refresh rate hingga 120 Hz dengan ProMotion Display<br
+          /></span>
+          <span class="span">Chipset<br /></span>
+          <span class="text-wrapper-3"
+            >Apple A17 Pro<br />CPU: 6 core<br />GPU:6 core<br />Neural Engine: 16 core<br
+          /></span>
+          <span class="span">Memori penyimpanan<br /></span>
+          <span class="text-wrapper-3">128 GB, 256 GB, 512 GB, 1 TB<br /></span>
+          <span class="span">Kamera depan<br /></span>
+          <span class="text-wrapper-3">12 MP (f/1.9)<br /></span>
+          <span class="span">Kamera belakang<br /></span>
+          <span class="text-wrapper-3"
+            >Kamera utama: 48 MP (f/1.78)<br />Kamera ultrawide: 12 MP (f/2.2)<br />Kamera telefoto: 12 MP (f/2.8)<br />Dukungan
+            optical zoom 3x dan Spatial Video<br
+          /></span>
+          <span class="span">Baterai<br /></span>
+          <span class="text-wrapper-3"
+            >Tahan digunakan untuk menonton video selama 23 jam, dengan dukungan pengisian daya cepat 20 W<br
+          /></span>
+          <span class="span">Sistem operasi<br /></span>
+          <span class="text-wrapper-3">Mendukung iOS 17<br /></span>
+          <span class="span">Harga<br /></span>
+          <span class="text-wrapper-3"
+            >128 GB: 999 dollar AS (sekitar Rp 15.350.000)<br />256 GB: 1.099 dollar AS (sekitar Rp 16.860.000)<br />512
+            GB: 1.299 dollar AS (sekitar Rp 19.960.000)<br />1 TB: 1.499 dollar AS (sekitar Rp 23.000.000)</span
+          >
+        </p>
+        <div class="overlap">
+          <img
+            class="apple-iphone-pro"
+            src="img/apple-iphone-15-pro-max-natural-titanium-1-1-2-removebg-preview-2.png"
+          />
+        </div>
+        <div class="heading-reviews-wrapper"><div class="heading-reviews">Reviews</div></div>
+        <img class="material-symbols" src="img/material-symbols-home.svg" />
+        <div class="overlap-2">
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="overlap-3">
+            <div class="text-wrapper-5">Terms and Conditions</div>
+            <div class="text-wrapper-6">Privacy Policy</div>
+          </div>
+          <div class="text-wrapper-7">About Us</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
