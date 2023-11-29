@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+        .terms-and-conditions {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.terms-and-conditions .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 1687px;
+  position: relative;
+}
+
+.terms-and-conditions .overlap {
+  position: absolute;
+  width: 1049px;
+  height: 810px;
+  top: 223px;
+  left: 196px;
+}
+
+.terms-and-conditions .contact-us {
+  position: absolute;
+  width: 105px;
+  height: 15px;
+  top: 205px;
+  left: 471px;
+}
+
+.terms-and-conditions .contains {
+  position: absolute;
+  width: 85px;
+  height: 16px;
+  top: 653px;
+  left: 73px;
+}
+
+.terms-and-conditions .nama {
+  position: absolute;
+  width: 53px;
+  height: 15px;
+  top: 282px;
+  left: 73px;
+}
+
+.terms-and-conditions .alamat-email {
+  position: absolute;
+  width: 123px;
+  height: 16px;
+  top: 448px;
+  left: 77px;
+}
+
+.terms-and-conditions .terakhir-diperbarui {
+  position: absolute;
+  width: 1049px;
+  height: 810px;
+  top: 0;
+  left: 0;
+}
+
+.terms-and-conditions .shape-with-text {
+  position: absolute;
+  width: 903px;
+  height: 70px;
+  top: 54px;
+  left: 3193px;
+}
+
+.terms-and-conditions .img {
+  position: absolute;
+  width: 903px;
+  height: 70px;
+  top: 217px;
+  left: 3193px;
+}
+
+.terms-and-conditions .img-2 {
+  position: absolute;
+  width: 209px;
+  height: 16px;
+  top: 147px;
+  left: 615px;
+}
+
+.terms-and-conditions .material-symbols {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 8px;
+  left: 10px;
+}
+
+.terms-and-conditions .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 326px;
+  top: 1361px;
+  left: 0;
+  background-color: #000000;
+}
+
+.terms-and-conditions .text-wrapper {
+  position: absolute;
+  width: 146px;
+  top: 44px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.terms-and-conditions .overlap-2 {
+  position: absolute;
+  width: 319px;
+  height: 106px;
+  top: 149px;
+  left: 75px;
+}
+
+.terms-and-conditions .text-wrapper-2 {
+  position: absolute;
+  width: 319px;
+  top: 52px;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.terms-and-conditions .text-wrapper-3 {
+  position: absolute;
+  width: 194px;
+  top: 0;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.terms-and-conditions .text-wrapper-4 {
+  position: absolute;
+  width: 146px;
+  top: 97px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+    </style>
+  </head>
+  <body>
+    <div class="terms-and-conditions">
+      <div class="div">
+        <div class="overlap">
+          <img class="contact-us" src="img/contact-us.png" />
+          <img class="contains" src="img/contains.png" />
+          <img class="nama" src="img/nama.png" />
+          <img class="alamat-email" src="img/alamat-email.png" />
+          <img
+            class="terakhir-diperbarui"
+            src="img/terakhir-diperbarui-13-november-2023-harap-baca-syarat-dan-ketentuan-ini-dengan-seksama-sebelum-menggunakan-looka-gadget-dengan-mengakses-atau-menggunakan-situs-web-ini-anda-setuju-untuk-terikat-oleh-syarat-dan-ketentuan-ini-penggunaan-konten-hak-kekayaan-intelektual-seluruh-konten-di-looka-gadget-termasuk-tetapi-tidak-terbatas-pada-teks-gambar-grafik-logo-dan-ikon-dilindungi-oleh-hak-kekayaan-intelektual-dan-hak-cipta-pengguna-tidak-diberikan-hak-untuk-menggunakan-mendistribusikan-atau-mereproduksi-konten-tanpa-izin-tertulis-dari-kami-penggunaan-yang-dilarang-penggunaan-situs-ini-untuk-tujuan-ilegal-atau-yang-melanggar-syarat-dan-ketentuan-ini-dilarang-ini-termasuk-namun-tidak-terbatas-pada-penggunaan-yang-merugikan-mengganggu-atau-merusak-integritas-situs-pendaftaran-dan-akun-pengguna-informasi-akun-pengguna-yang-mendaftar-untuk-akun-di-nama-website-bertanggung-jawab-atas-keamanan-informasi-akun-mereka-dan-harus-memberikan-informasi-yang-akurat-dan-lengkap-akses-terbatas-kami-berhak-untuk-menolak-akses-atau-menonaktifkan-akun-pengguna-tanpa-pemberitahuan-jika-kami-yakin-ada-pelanggaran-terhadap-syarat-dan-ketentuan-ini-pertanyaan-dan-komentar-umpan-balik-pengguna-kami-menyambut-umpan-balik-dari-pengguna-terkait-pengalaman-mereka-di-nama-website-namun-kami-berhak-untuk-menggunakan-atau-mengimplementasikan-umpan-balik-tersebut-tanpa-memberikan-kompensasi-perubahan-pada-syarat-dan-ketentuan-kami-berhak-untuk-memperbarui-atau-mengubah-syarat-dan-ketentuan-ini-dari-waktu-ke-waktu-tanpa-pemberitahuan-sebelumnya-pengguna-diharapkan-untuk-secara-berkala-memeriksa-halaman-ini-untuk-mengetahui-perubahan-apa-pun-dengan-menggunakan-looka-gadget-anda-menyetujui-untuk-mematuhi-syarat-dan-ketentuan-ini-jika-anda-tidak-setuju-dengan-syarat-ini-harap-berhenti-menggunakan-situs-web-kami-hubungi-kami-jika-anda-memiliki-pertanyaan-atau-komentar-terkait-syarat-dan-ketentuan-ini-harap-hubungi-kami-di-alamat-email-kontak.png"
+          />
+        </div>
+        <img class="shape-with-text" src="img/image.svg" />
+        <img class="img" src="img/shape-with-text.svg" />
+        <img class="img-2" src="img/terms-and-conditions.png" />
+        <img class="material-symbols" src="img/material-symbols-home.svg" />
+        <div class="overlap-group">
+          <div class="text-wrapper">Contact Us</div>
+          <div class="overlap-2">
+            <div class="text-wrapper-2">Terms and Conditions</div>
+            <div class="text-wrapper-3">Privacy Policy</div>
+          </div>
+          <div class="text-wrapper-4">About Us</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
