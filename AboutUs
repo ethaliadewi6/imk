@@ -1,0 +1,212 @@
+#About Us
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+    .about-us {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-us .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1687px;
+  position: relative;
+}
+
+.about-us .overlap {
+  position: absolute;
+  width: 1221px;
+  height: 763px;
+  top: 233px;
+  left: 19px;
+}
+
+.about-us .contact-us {
+  position: absolute;
+  width: 105px;
+  height: 15px;
+  top: 195px;
+  left: 648px;
+}
+
+.about-us .contains {
+  position: absolute;
+  width: 85px;
+  height: 16px;
+  top: 643px;
+  left: 250px;
+}
+
+.about-us .nama {
+  position: absolute;
+  width: 53px;
+  height: 15px;
+  top: 272px;
+  left: 250px;
+}
+
+.about-us .alamat-email {
+  position: absolute;
+  width: 123px;
+  height: 16px;
+  top: 438px;
+  left: 254px;
+}
+
+.about-us .shape-with-text {
+  position: absolute;
+  width: 903px;
+  height: 70px;
+  top: 2px;
+  left: 0;
+}
+
+.about-us .selamat-datang-di {
+  position: absolute;
+  width: 1028px;
+  height: 763px;
+  top: 0;
+  left: 194px;
+}
+
+.about-us .img {
+  position: absolute;
+  width: 903px;
+  height: 70px;
+  top: 72px;
+  left: 19px;
+}
+
+.about-us .img-2 {
+  position: absolute;
+  width: 88px;
+  height: 15px;
+  top: 147px;
+  left: 675px;
+}
+
+.about-us .material-symbols {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 15px;
+  left: 14px;
+}
+
+.about-us .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 326px;
+  top: 1361px;
+  left: 0;
+  background-color: #000000;
+}
+
+.about-us .text-wrapper {
+  position: absolute;
+  width: 146px;
+  top: 44px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-us .overlap-2 {
+  position: absolute;
+  width: 319px;
+  height: 106px;
+  top: 149px;
+  left: 75px;
+}
+
+.about-us .text-wrapper-2 {
+  position: absolute;
+  width: 319px;
+  top: 52px;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-us .text-wrapper-3 {
+  position: absolute;
+  width: 194px;
+  top: 0;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-us .text-wrapper-4 {
+  position: absolute;
+  width: 146px;
+  top: 97px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div class="about-us">
+      <div class="div">
+        <div class="overlap">
+          <img class="contact-us" src="img/contact-us.png" />
+          <img class="contains" src="img/contains.png" />
+          <img class="nama" src="img/nama.png" />
+          <img class="alamat-email" src="img/alamat-email.png" />
+          <img class="shape-with-text" src="img/image.svg" />
+          <img
+            class="selamat-datang-di"
+            src="img/selamat-datang-di-looka-gadget-kami-percaya-bahwa-setiap-keputusan-pembelian-teknologi-harus-didasarkan-pada-informasi-yang-akurat-dan-relevan-di-looka-gadget-misi-kami-adalah-memberikan-anda-sumber-daya-terpercaya-untuk-mencari-rekomendasi-dan-perbandingan-terkait-smartphone-tablets-watches-dan-tvs-dengan-perkembangan-pesat-dalam-dunia-teknologi-memilih-perangkat-yang-sesuai-dengan-kebutuhan-anda-bisa-menjadi-tugas-yang-menantang-kami-hadir-untuk-memudahkan-anda-dalam-membuat-keputusan-yang-cerdas-tim-ahli-kami-dengan-cermat-meneliti-menguji-dan-mengevaluasi-berbagai-produk-untuk-menyajikan-ulasan-yang-komprehensif-dan-dapat-dipercaya-apa-yang-membedakan-kami-1-ulasan-terpercaya-kami-menghadirkan-ulasan-mendalam-yang-didukung-oleh-penelitian-menyeluruh-dan-pengujian-langsung-kami-berkomitmen-untuk-memberikan-pandangan-yang-objektif-dan-jujur-sehingga-anda-dapat-membuat-keputusan-berdasarkan-informasi-yang-akurat-2-perbandingan-yang-komprehensif-looka-gadget-menyediakan-perbandingan-langsung-antara-berbagai-produk-membantu-anda-memahami-perbedaan-dan-keunggulan-masing-masing-dengan-pembandingan-ini-anda-dapat-memilih-perangkat-yang-paling-sesuai-dengan-kebutuhan-dan-preferensi-anda-3-panduan-pembeli-yang-dapat-dipercaya-jelajahi-panduan-pembeli-kami-untuk-mendapatkan-wawasan-mendalam-tentang-faktor-faktor-yang-perlu-dipertimbangkan-sebelum-membuat-pembelian-kami-ingin-memastikan-bahwa-setiap-pengguna-kami-merasa-percaya-diri-dengan-keputusan-mereka-4-berita-dan-update-terbaru-kami-terus-memantau-perkembangan-terbaru-dalam-dunia-teknologi-dan-menyajikan-berita-serta-update-terkini-dengan-tetap-terinformasi-anda-dapat-mengikuti-perkembangan-terbaru-dan-mengambil-keputusan-yang-terinformasi-terima-kasih-telah-memilih-looka-gadget-sebagai-sumber-daya-utama-anda-untuk-mencari-rekomendasi-dan-perbandingan-produk-teknologi-mari-bersama-sama-menjelajahi-dunia-inovasi-dan-menemukan-perangkat-yang-sempurna-sesuai-kebutuhan-anda.png"
+          />
+        </div>
+        <div class="overlap-group">
+          <a href="index.html">
+            <img class="material-symbols" src="IMK/home_button.jpg" />
+          </a>
+        </div>
+        <img class="img" src="img/shape-with-text.svg" />
+        <img class="img-2" src="img/about-us.png" />
+        <img class="material-symbols" src="img/material-symbols-home.svg" />
+        <div class="overlap-group">
+          <div class="text-wrapper">Contact Us</div>
+          <div class="overlap-2">
+            <div class="text-wrapper-2">Terms and Conditions</div>
+            <div class="text-wrapper-3">Privacy Policy</div>
+          </div>
+          <div class="text-wrapper-4">About Us</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
