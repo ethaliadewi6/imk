@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+        .tvs {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.tvs .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 3500px;
+  position: relative;
+}
+
+.tvs .group {
+  position: absolute;
+  width: 263px;
+  height: 50px;
+  top: 3169px;
+  left: -580px;
+}
+
+.tvs .text-wrapper {
+  position: absolute;
+  width: 261px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.tvs .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 87px;
+  left: 0;
+  background-color: #000000;
+}
+
+.tvs .image {
+  width: 500px;
+  height: 375px;
+  top: 75px;
+  left: 420px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.tvs .TCL-UHD-TV {
+  position: absolute;
+  width: 638px;
+  top: 648px;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.tvs .TCL-QLED-SMART {
+  position: absolute;
+  width: 408px;
+  top: 1277px;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.22px;
+  line-height: 24px;
+}
+
+.tvs .text-wrapper-2 {
+  position: absolute;
+  width: 473px;
+  top: 807px;
+  left: 118px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: -0.28px;
+  line-height: 24px;
+}
+
+.tvs .nilai-brand-TCL {
+  position: absolute;
+  width: 1104px;
+  height: 591px;
+  top: 1343px;
+  left: 116px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18.9px;
+  letter-spacing: 0.23px;
+  line-height: 29px;
+}
+
+.tvs .span {
+  font-weight: 700;
+}
+
+.tvs .text-wrapper-3 {
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+}
+
+.tvs .overlap-group {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 854px;
+  left: 118px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.tvs .img {
+  width: 275px;
+  height: 206px;
+  top: 98px;
+  left: 24px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.tvs .heading-reviews-wrapper {
+  position: absolute;
+  width: 1440px;
+  height: 75px;
+  top: 2563px;
+  left: 0;
+  background-color: #000000;
+}
+
+.tvs .heading-reviews {
+  position: absolute;
+  width: 154px;
+  height: 50px;
+  top: 11px;
+  left: 643px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 37.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 45.6px;
+  white-space: nowrap;
+}
+
+.tvs .material-symbols {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 17px;
+  left: 17px;
+}
+
+.tvs .overlap-2 {
+  position: absolute;
+  width: 1440px;
+  height: 326px;
+  top: 3178px;
+  left: 0;
+  background-color: #000000;
+}
+
+.tvs .text-wrapper-4 {
+  position: absolute;
+  width: 146px;
+  top: 44px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tvs .overlap-3 {
+  position: absolute;
+  width: 319px;
+  height: 106px;
+  top: 149px;
+  left: 75px;
+}
+
+.tvs .text-wrapper-5 {
+  position: absolute;
+  width: 319px;
+  top: 52px;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tvs .text-wrapper-6 {
+  position: absolute;
+  width: 194px;
+  top: 0;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tvs .text-wrapper-7 {
+  position: absolute;
+  width: 146px;
+  top: 97px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tvs .div-jsx {
+  position: absolute;
+  width: 67px;
+  height: 50px;
+  top: 3038px;
+  left: 151px;
+}
+
+.tvs .text-wrapper-8 {
+  position: absolute;
+  width: 67px;
+  height: 16px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 14.9px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.tvs .div-jsx-2 {
+  position: absolute;
+  width: 500px;
+  height: 161px;
+  top: 2661px;
+  left: 870px;
+}
+
+.tvs .overlap-group-2 {
+  position: absolute;
+  width: 532px;
+  height: 127px;
+  top: 14px;
+  left: -78px;
+}
+
+.tvs .icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 78px;
+}
+
+.tvs .icon-2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 101px;
+}
+
+.tvs .icon-3 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 123px;
+}
+
+.tvs .div-jsx-3 {
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  top: 34px;
+  left: 78px;
+}
+
+.tvs .text-wrapper-9 {
+  position: absolute;
+  width: 195px;
+  height: 16px;
+  top: 35px;
+  left: 111px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #454f5b;
+  font-size: 14.9px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.tvs .abis-move-dari-PM {
+  position: absolute;
+  width: 454px;
+  height: 19px;
+  top: 93px;
+  left: 78px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #454f5b;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tvs .div-jsx-4 {
+  position: absolute;
+  width: 133px;
+  height: 126px;
+  top: 1px;
+  left: 0;
+}
+
+.tvs .div-jsx-5 {
+  position: absolute;
+  width: 67px;
+  height: 50px;
+  top: 76px;
+  left: 0;
+}
+
+.tvs .p-jsx {
+  position: absolute;
+  width: 67px;
+  height: 22px;
+  top: 24px;
+  left: 0;
+}
+
+.tvs .text-wrapper-10 {
+  position: absolute;
+  width: 45px;
+  height: 16px;
+  top: 2px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #637381;
+  font-size: 12.6px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.tvs .vector {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 13px;
+  left: -2px;
+}
+
+.tvs .icon-4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 14px;
+  left: 68px;
+}
+
+.tvs .icon-5 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 14px;
+  left: 90px;
+}
+
+.tvs .div-jsx-6 {
+  position: absolute;
+  width: 500px;
+  height: 161px;
+  top: 2660px;
+  left: 183px;
+}
+
+.tvs .button-lihat {
+  position: absolute;
+  width: 189px;
+  height: 40px;
+  top: 2863px;
+  left: 642px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.tvs .text-wrapper-11 {
+  position: absolute;
+  width: 121px;
+  height: 19px;
+  top: 9px;
+  left: 24px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.tvs .SVG {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  left: 149px;
+}
+
+.tvs .icon-6 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2993px;
+  left: 148px;
+}
+
+.tvs .icon-7 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2993px;
+  left: 183px;
+}
+
+.tvs .icon-8 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2993px;
+  left: 218px;
+}
+
+.tvs .icon-9 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2993px;
+  left: 253px;
+}
+
+.tvs .icon-10 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2993px;
+  left: 288px;
+}
+
+.tvs .div-wrapper {
+  position: absolute;
+  width: 189px;
+  height: 40px;
+  top: 2938px;
+  left: 151px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.tvs .text-wrapper-12 {
+  position: absolute;
+  width: 121px;
+  height: 19px;
+  top: 10px;
+  left: 34px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19px;
+  white-space: nowrap;
+}
+    </style>
+  </head>
+  <body>
+    <div class="tvs">
+      <div class="div">
+        <div class="group"><div class="text-wrapper">Show More</div></div>
+        <div class="overlap"><img class="image" src="img/image-11.png" /></div>
+        <p class="TCL-UHD-TV">TCL 98P745 4K UHD TV<br /><br />Rp53.499.000</p>
+        <p class="TCL-QLED-SMART">TCL C645 QLED SMART TV<br />Rp13.999.000</p>
+        <div class="text-wrapper-2">Rekomendasi Produk Serupa</div>
+        <p class="nilai-brand-TCL">
+          <span class="span">Nilai Brand <br /></span>
+          <span class="text-wrapper-3">TCL<br /></span>
+          <span class="span">Model<br /></span>
+          <span class="text-wrapper-3">98P745 4K LED Google TVTipe TVLED<br /></span>
+          <span class="span">Ukuran Layar<br /></span>
+          <span class="text-wrapper-3">2.49 m (98&#34;)<br /></span>
+          <span class="span">Resolusi Layar<br /></span>
+          <span class="text-wrapper-3">3845 x 2160 piksel<br /></span>
+          <span class="span">Aspect Ratio<br /></span>
+          <span class="text-wrapper-3">16:9<br /></span>
+          <span class="span">Teknologi <br /></span>
+          <span class="text-wrapper-3">BacklightDirect-LEDBrightness350 cd/m²<br /></span>
+          <span class="span">Response Time<br /></span>
+          <span class="text-wrapper-3"
+            >5.7 msMotion Interpolation TechnologyPPI (Picture Perfomance Index) 3000<br
+          /></span>
+          <span class="span">Audio<br /></span>
+          <span class="text-wrapper-3">2 speaker, 60 WAudio <br /></span>
+          <span class="span">Decoders<br /></span>
+          <span class="text-wrapper-3"
+            >DTS, Dolby AtmosAudio Decoding TechnologiesDTS Virtual:X, DTS:XTuner TypeAnalog &amp; digitalAnalog Signal
+            Format SystemNTSC, PAL BG, PAL DK, PAL I, SECAM B/G, SECAM D/KDigital Signal Format SystemDVB-C, DVB-S2,
+            DVB-T2HDMI Ports4USB Ports1Ethernet SocketsYesOperative SystemGoogle TV OS version
+            11.0Wi-FiYesColourBlack</span
+          >
+        </p>
+        <div class="overlap-group"><img class="img" src="img/image-13.png" /></div>
+        <div class="heading-reviews-wrapper"><div class="heading-reviews">Reviews</div></div>
+        <img class="material-symbols" src="img/material-symbols-home.svg" />
+        <div class="overlap-2">
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="overlap-3">
+            <div class="text-wrapper-5">Terms and Conditions</div>
+            <div class="text-wrapper-6">Privacy Policy</div>
+          </div>
+          <div class="text-wrapper-7">About Us</div>
+        </div>
+        <div class="div-jsx"><div class="text-wrapper-8">Rating</div></div>
+        <div class="div-jsx-2">
+          <div class="overlap-group-2">
+            <img class="icon" src="img/icon-5.svg" />
+            <img class="icon-2" src="img/icon-10.svg" />
+            <img class="icon-3" src="img/icon-12.svg" />
+            <img class="div-jsx-3" src="img/div-jsx-3348615074.svg" />
+            <div class="text-wrapper-9">Recommends this product!</div>
+            <p class="abis-move-dari-PM">
+              abis move dari 14 PM ke 15 PM entah ya berasa lebih smooth dan irit baterai aja.<br />Kameranya hampir
+              mirip cuman beda zoom di lensa 1x yang 32mm sama 28 mm dan 5x.<br />Layar nya lebih luas dikit dan paling
+              jelas RINGAN
+            </p>
+            <div class="div-jsx-4">
+              <div class="div-jsx-5">
+                <div class="text-wrapper-8">belinda</div>
+                <div class="p-jsx"><div class="text-wrapper-10">28-10</div></div>
+              </div>
+              <img class="vector" src="img/vector.svg" />
+            </div>
+          </div>
+          <img class="icon-4" src="img/icon-6.svg" />
+          <img class="icon-5" src="img/icon-3.svg" />
+        </div>
+        <div class="div-jsx-6">
+          <div class="overlap-group-2">
+            <img class="icon" src="img/icon-14.svg" />
+            <img class="icon-2" src="img/icon-9.svg" />
+            <img class="icon-3" src="img/icon-11.svg" />
+            <img class="div-jsx-3" src="img/div-jsx-3348615074-2.svg" />
+            <div class="text-wrapper-9">Recommends this product!</div>
+            <p class="abis-move-dari-PM">
+              abis move dari 14 PM ke 15 PM entah ya berasa lebih smooth dan irit baterai aja.<br />Kameranya hampir
+              mirip cuman beda zoom di lensa 1x yang 32mm sama 28 mm dan 5x.<br />Layar nya lebih luas dikit dan paling
+              jelas RINGAN
+            </p>
+            <div class="div-jsx-4">
+              <div class="div-jsx-5">
+                <div class="text-wrapper-8">belinda</div>
+                <div class="p-jsx"><div class="text-wrapper-10">28-10</div></div>
+              </div>
+              <img class="vector" src="img/vector-2.svg" />
+            </div>
+          </div>
+          <img class="icon-4" src="img/icon-8.svg" />
+          <img class="icon-5" src="img/icon-4.svg" />
+        </div>
+        <div class="button-lihat">
+          <div class="text-wrapper-11">Lihat selengkapnya</div>
+          <img class="SVG" src="img/SVG.svg" />
+        </div>
+        <img class="icon-6" src="img/icon-13.svg" />
+        <img class="icon-7" src="img/icon-7.svg" />
+        <img class="icon-8" src="img/icon-2.svg" />
+        <img class="icon-9" src="img/image.svg" />
+        <img class="icon-10" src="img/icon.svg" />
+        <div class="div-wrapper"><div class="text-wrapper-12">Add Review</div></div>
+      </div>
+    </div>
+  </body>
+</html>
