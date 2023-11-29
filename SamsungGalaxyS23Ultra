@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+        .smartphones {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.smartphones .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 3500px;
+  position: relative;
+}
+
+.smartphones .group {
+  position: absolute;
+  width: 263px;
+  height: 50px;
+  top: 3169px;
+  left: -580px;
+}
+
+.smartphones .text-wrapper {
+  position: absolute;
+  width: 261px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.smartphones .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 87px;
+  left: 0;
+  background-color: #000000;
+}
+
+.smartphones .frame {
+  position: relative;
+  height: 524px;
+  overflow: hidden;
+  overflow-x: scroll;
+  background-image: url(./img/desain-tanpa-judul-25-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.smartphones .desain-tanpa-judul {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 0;
+  left: 1440px;
+  object-fit: cover;
+}
+
+.smartphones .img {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 0;
+  left: 2880px;
+  object-fit: cover;
+}
+
+.smartphones .desain-tanpa-judul-2 {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 0;
+  left: 4320px;
+  object-fit: cover;
+}
+
+.smartphones .samsung-galaxy {
+  width: 464px;
+  top: 654px;
+  font-size: 30px;
+  letter-spacing: -0.33px;
+  position: absolute;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  line-height: 24px;
+}
+
+.smartphones .samsung-galaxy-s {
+  width: 408px;
+  top: 1283px;
+  font-size: 20px;
+  letter-spacing: -0.22px;
+  position: absolute;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  line-height: 24px;
+}
+
+.smartphones .text-wrapper-2 {
+  position: absolute;
+  width: 473px;
+  top: 813px;
+  left: 118px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: -0.28px;
+  line-height: 24px;
+}
+
+.smartphones .CPU-speed {
+  position: absolute;
+  width: 1104px;
+  height: 931px;
+  top: 1349px;
+  left: 116px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18.9px;
+  letter-spacing: 0.23px;
+  line-height: 29px;
+}
+
+.smartphones .span {
+  font-weight: 700;
+}
+
+.smartphones .text-wrapper-3 {
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+}
+
+.smartphones .overlap-group {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 860px;
+  left: 118px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.smartphones .image {
+  position: absolute;
+  width: 160px;
+  height: 212px;
+  top: 95px;
+  left: 82px;
+  object-fit: cover;
+}
+
+.smartphones .heading-reviews-wrapper {
+  position: absolute;
+  width: 1440px;
+  height: 75px;
+  top: 2569px;
+  left: 0;
+  background-color: #000000;
+}
+
+.smartphones .heading-reviews {
+  position: absolute;
+  width: 154px;
+  height: 50px;
+  top: 11px;
+  left: 643px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 37.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 45.6px;
+  white-space: nowrap;
+}
+
+.smartphones .material-symbols {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 17px;
+  left: 17px;
+}
+
+.smartphones .overlap-group-2 {
+  position: absolute;
+  width: 1440px;
+  height: 326px;
+  top: 3182px;
+  left: 0;
+  background-color: #000000;
+}
+
+.smartphones .text-wrapper-4 {
+  position: absolute;
+  width: 146px;
+  top: 44px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.smartphones .overlap-2 {
+  position: absolute;
+  width: 319px;
+  height: 106px;
+  top: 149px;
+  left: 75px;
+}
+
+.smartphones .text-wrapper-5 {
+  position: absolute;
+  width: 319px;
+  top: 52px;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.smartphones .text-wrapper-6 {
+  position: absolute;
+  width: 194px;
+  top: 0;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.smartphones .text-wrapper-7 {
+  position: absolute;
+  width: 146px;
+  top: 97px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+    </style>
+  </head>
+  <body>
+    <div class="smartphones">
+      <div class="div">
+        <div class="group"><div class="text-wrapper">Show More</div></div>
+        <div class="overlap">
+          <div class="frame">
+            <img class="desain-tanpa-judul" src="img/desain-tanpa-judul-24-1.png" />
+            <img class="img" src="img/desain-tanpa-judul-23-1.png" />
+            <img class="desain-tanpa-judul-2" src="img/desain-tanpa-judul-22-1.png" />
+          </div>
+        </div>
+        <div class="samsung-galaxy">Samsung Galaxy S23 Ultra<br /><br />Rp19.999.000-Rp21.999.000</div>
+        <div class="samsung-galaxy-s">Samsung Galaxy S23<br />Rp13.999.000-Rp17.999.000</div>
+        <div class="text-wrapper-2">Rekomendasi Produk Serupa</div>
+        <p class="CPU-speed">
+          <span class="span">CPU Speed<br /></span>
+          <span class="text-wrapper-3">3.36GHz, 2.8GHz, 2GHz<br /></span>
+          <span class="span">CPU Type<br /></span>
+          <span class="text-wrapper-3">Octa-Core<br /></span>
+          <span class="span">Size (Main_Display)<br /></span>
+          <span class="text-wrapper-3"
+            >173.1mm (6.8&#34; full rectangle) / 172.5mm (6.8&#34; rounded corners)<br
+          /></span>
+          <span class="span">Resolution (Main Display)<br /></span>
+          <span class="text-wrapper-3">3088 x 1440 (Quad HD+)<br /></span>
+          <span class="span">Technology (Main Display)<br /></span>
+          <span class="text-wrapper-3">Dynamic AMOLED 2X<br /></span>
+          <span class="span">Color Depth (Main Display)<br /></span>
+          <span class="text-wrapper-3">16M<br /></span>
+          <span class="span">Max Refresh Rate (Main Display)<br /></span>
+          <span class="text-wrapper-3">120 Hz<br /></span>
+          <span class="span">Memori_(GB)<br /></span>
+          <span class="text-wrapper-3">12<br /></span>
+          <span class="span">Penyimpanan (GB)<br /></span>
+          <span class="text-wrapper-3">512<br /></span>
+          <span class="span">Penyimpanan Tersedia (GB)<br /></span>
+          <span class="text-wrapper-3">453.7<br /></span>
+          <span class="span">Internet Usage Time(LTE) (Hours)<br /></span>
+          <span class="text-wrapper-3">Up to 25<br /></span>
+          <span class="span">Internet Usage Time(Wi-Fi) (Hours)<br /></span>
+          <span class="text-wrapper-3">Up to 25<br /></span>
+          <span class="span">Video Playback Time (Hours, Wireless)<br /></span>
+          <span class="text-wrapper-3">Up to 26<br /></span>
+          <span class="span">Battery Capacity (mAh, Typical)<br /></span>
+          <span class="text-wrapper-3">5000<br /></span>
+          <span class="span">Audio Playback Time (Hours, Wireless)<br /></span>
+          <span class="text-wrapper-3">Up to 99<br /></span>
+          <span class="span">Talk Time (4G LTE) (Hours)<br /></span>
+          <span class="text-wrapper-3">Up to 49</span>
+        </p>
+        <div class="overlap-group"><img class="image" src="img/image-1.png" /></div>
+        <div class="heading-reviews-wrapper"><div class="heading-reviews">Reviews</div></div>
+        <img class="material-symbols" src="img/material-symbols-home.svg" />
+        <div class="overlap-group-2">
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="overlap-2">
+            <div class="text-wrapper-5">Terms and Conditions</div>
+            <div class="text-wrapper-6">Privacy Policy</div>
+          </div>
+          <div class="text-wrapper-7">About Us</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
