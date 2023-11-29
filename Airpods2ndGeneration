@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+        .accesories {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.accesories .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 3500px;
+  position: relative;
+}
+
+.accesories .group {
+  position: absolute;
+  width: 263px;
+  height: 50px;
+  top: 3169px;
+  left: -580px;
+}
+
+.accesories .text-wrapper {
+  position: absolute;
+  width: 261px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.accesories .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 87px;
+  left: 0;
+  background-color: #000000;
+  background-image: url(./img/desain-tanpa-judul-64-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.accesories .airpods {
+  position: absolute;
+  width: 509px;
+  top: 648px;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.accesories .airpods-max {
+  position: absolute;
+  width: 408px;
+  top: 1277px;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.22px;
+  line-height: 24px;
+}
+
+.accesories .text-wrapper-2 {
+  position: absolute;
+  width: 473px;
+  top: 807px;
+  left: 118px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: -0.28px;
+  line-height: 24px;
+}
+
+.accesories .sensor-mikrofon {
+  position: absolute;
+  width: 1104px;
+  height: 561px;
+  top: 1343px;
+  left: 118px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 18.9px;
+  letter-spacing: 0.23px;
+  line-height: 29px;
+}
+
+.accesories .span {
+  font-weight: 600;
+  color: #86868b;
+}
+
+.accesories .text-wrapper-3 {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+}
+
+.accesories .text-wrapper-4 {
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+}
+
+.accesories .overlap-group {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 854px;
+  left: 118px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.accesories .airpods-max-select {
+  position: absolute;
+  width: 200px;
+  height: 237px;
+  top: 83px;
+  left: 62px;
+  object-fit: cover;
+}
+
+.accesories .heading-reviews-wrapper {
+  position: absolute;
+  width: 1440px;
+  height: 75px;
+  top: 2563px;
+  left: 0;
+  background-color: #000000;
+}
+
+.accesories .heading-reviews {
+  position: absolute;
+  width: 154px;
+  height: 50px;
+  top: 11px;
+  left: 643px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 37.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 45.6px;
+  white-space: nowrap;
+}
+
+.accesories .material-symbols {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 17px;
+  left: 17px;
+}
+
+.accesories .div-jsx {
+  position: absolute;
+  width: 67px;
+  height: 50px;
+  top: 3036px;
+  left: 154px;
+}
+
+.accesories .text-wrapper-5 {
+  position: absolute;
+  width: 67px;
+  height: 16px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 14.9px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.accesories .div-jsx-2 {
+  position: absolute;
+  width: 500px;
+  height: 161px;
+  top: 2659px;
+  left: 873px;
+}
+
+.accesories .overlap-group-2 {
+  position: absolute;
+  width: 532px;
+  height: 127px;
+  top: 14px;
+  left: -78px;
+}
+
+.accesories .icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 78px;
+}
+
+.accesories .img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 101px;
+}
+
+.accesories .icon-2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 123px;
+}
+
+.accesories .div-jsx-3 {
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  top: 34px;
+  left: 78px;
+}
+
+.accesories .text-wrapper-6 {
+  position: absolute;
+  width: 195px;
+  height: 16px;
+  top: 35px;
+  left: 111px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #454f5b;
+  font-size: 14.9px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.accesories .abis-move-dari-PM {
+  position: absolute;
+  width: 454px;
+  height: 19px;
+  top: 93px;
+  left: 78px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #454f5b;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.accesories .div-jsx-4 {
+  position: absolute;
+  width: 133px;
+  height: 126px;
+  top: 1px;
+  left: 0;
+}
+
+.accesories .div-jsx-5 {
+  position: absolute;
+  width: 67px;
+  height: 50px;
+  top: 76px;
+  left: 0;
+}
+
+.accesories .p-jsx {
+  position: absolute;
+  width: 67px;
+  height: 22px;
+  top: 24px;
+  left: 0;
+}
+
+.accesories .text-wrapper-7 {
+  position: absolute;
+  width: 45px;
+  height: 16px;
+  top: 2px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #637381;
+  font-size: 12.6px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.accesories .vector {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 13px;
+  left: -2px;
+}
+
+.accesories .icon-3 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 14px;
+  left: 68px;
+}
+
+.accesories .icon-4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 14px;
+  left: 90px;
+}
+
+.accesories .div-jsx-6 {
+  position: absolute;
+  width: 500px;
+  height: 161px;
+  top: 2658px;
+  left: 186px;
+}
+
+.accesories .button-lihat {
+  position: absolute;
+  width: 189px;
+  height: 40px;
+  top: 2861px;
+  left: 645px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.accesories .text-wrapper-8 {
+  position: absolute;
+  width: 121px;
+  height: 19px;
+  top: 9px;
+  left: 24px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.accesories .SVG {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  left: 149px;
+}
+
+.accesories .icon-5 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2991px;
+  left: 151px;
+}
+
+.accesories .icon-6 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2991px;
+  left: 186px;
+}
+
+.accesories .icon-7 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2991px;
+  left: 221px;
+}
+
+.accesories .icon-8 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2991px;
+  left: 256px;
+}
+
+.accesories .icon-9 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2991px;
+  left: 291px;
+}
+
+.accesories .div-wrapper {
+  position: absolute;
+  width: 189px;
+  height: 40px;
+  top: 2936px;
+  left: 154px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.accesories .text-wrapper-9 {
+  position: absolute;
+  width: 121px;
+  height: 19px;
+  top: 10px;
+  left: 34px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.accesories .overlap-2 {
+  position: absolute;
+  width: 1440px;
+  height: 326px;
+  top: 3174px;
+  left: 0;
+  background-color: #000000;
+}
+
+.accesories .text-wrapper-10 {
+  position: absolute;
+  width: 146px;
+  top: 35px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.accesories .overlap-3 {
+  position: absolute;
+  width: 319px;
+  height: 106px;
+  top: 140px;
+  left: 75px;
+}
+
+.accesories .text-wrapper-11 {
+  position: absolute;
+  width: 319px;
+  top: 52px;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.accesories .text-wrapper-12 {
+  position: absolute;
+  width: 194px;
+  top: 0;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.accesories .text-wrapper-13 {
+  position: absolute;
+  width: 146px;
+  top: 88px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+    </style>
+  </head>
+  <body>
+    <div class="accesories">
+      <div class="div">
+        <div class="group"><div class="text-wrapper">Show More</div></div>
+        <div class="overlap"></div>
+        <div class="airpods">Airpods 2nd Generation<br /><br />Rp3.199.000</div>
+        <div class="airpods-max">Airpods Max<br />Rp8.999.000</div>
+        <div class="text-wrapper-2">Rekomendasi Produk Serupa</div>
+        <p class="sensor-mikrofon">
+          <span class="span"><br /></span>
+          <span class="text-wrapper-3">Sensor<br /></span>
+          <span class="text-wrapper-4"
+            >Mikrofon ganda pembentuk sinyal, sensor optik ganda, akselerometer pendeteksi gerak, akselerometer
+            pendeteksi bicara<br
+          /></span>
+          <span class="text-wrapper-3">Chip<br /></span>
+          <span class="text-wrapper-4">Chip headphone H1<br /></span>
+          <span class="text-wrapper-3">Kontrol<br /></span>
+          <span class="text-wrapper-4"
+            >Ketuk dua kali untuk memutar, melompat maju, atau menjawab panggilan telepon<br />Ukuran dan Berat
+            (Masing-masing): 40,5 mm x 16,5 mm x 18,0 mm, 4 g<br
+          /></span>
+          <span class="text-wrapper-3">Casing Pengisian Daya<br /></span>
+          <span class="text-wrapper-4">Berfungsi dengan konektor Lightning<br /></span>
+          <span class="text-wrapper-3">Baterai AirPods<br /></span>
+          <span class="text-wrapper-4"
+            >Hingga 5 jam waktu dengar dengan sekali isi daya, hingga 3 jam waktu bicara dengan sekali isi daya<br
+          /></span>
+          <span class="text-wrapper-3">AirPods dengan Casing Pengisian Daya<br /></span>
+          <span class="text-wrapper-4"
+            >Lebih dari 24 jam waktu dengar, lebih dari 18 jam waktu bicara, 15 menit dalam casing ini sama dengan 3 jam
+            waktu dengar atau hingga 2 jam waktu bicara<br
+          /></span>
+          <span class="text-wrapper-3">Konektivitas<br /></span>
+          <span class="text-wrapper-4">Bluetooth 5.0<br /></span>
+          <span class="text-wrapper-3">Isi Kotak<br /></span>
+          <span class="text-wrapper-4"
+            >AirPods, Casing Pengisian Daya, Kabel Lightning ke USB-A, Dokumentasi<br
+          /></span>
+        </p>
+        <div class="overlap-group">
+          <img class="airpods-max-select" src="img/airpods-max-select-pink-202011-removebg-preview-1.png" />
+        </div>
+        <div class="heading-reviews-wrapper"><div class="heading-reviews">Reviews</div></div>
+        <img class="material-symbols" src="img/material-symbols-home.svg" />
+        <div class="div-jsx"><div class="text-wrapper-5">Rating</div></div>
+        <div class="div-jsx-2">
+          <div class="overlap-group-2">
+            <img class="icon" src="img/icon-13.svg" />
+            <img class="img" src="img/icon.svg" />
+            <img class="icon-2" src="img/icon-8.svg" />
+            <img class="div-jsx-3" src="img/div-jsx-3348615074.svg" />
+            <div class="text-wrapper-6">Recommends this product!</div>
+            <p class="abis-move-dari-PM">
+              abis move dari 14 PM ke 15 PM entah ya berasa lebih smooth dan irit baterai aja.<br />Kameranya hampir
+              mirip cuman beda zoom di lensa 1x yang 32mm sama 28 mm dan 5x.<br />Layar nya lebih luas dikit dan paling
+              jelas RINGAN
+            </p>
+            <div class="div-jsx-4">
+              <div class="div-jsx-5">
+                <div class="text-wrapper-5">belinda</div>
+                <div class="p-jsx"><div class="text-wrapper-7">28-10</div></div>
+              </div>
+              <img class="vector" src="img/vector-2.svg" />
+            </div>
+          </div>
+          <img class="icon-3" src="img/icon-10.svg" />
+          <img class="icon-4" src="img/icon-9.svg" />
+        </div>
+        <div class="div-jsx-6">
+          <div class="overlap-group-2">
+            <img class="icon" src="img/image.svg" />
+            <img class="img" src="img/icon-6.svg" />
+            <img class="icon-2" src="img/icon-11.svg" />
+            <img class="div-jsx-3" src="img/div-jsx-3348615074-2.svg" />
+            <div class="text-wrapper-6">Recommends this product!</div>
+            <p class="abis-move-dari-PM">
+              abis move dari 14 PM ke 15 PM entah ya berasa lebih smooth dan irit baterai aja.<br />Kameranya hampir
+              mirip cuman beda zoom di lensa 1x yang 32mm sama 28 mm dan 5x.<br />Layar nya lebih luas dikit dan paling
+              jelas RINGAN
+            </p>
+            <div class="div-jsx-4">
+              <div class="div-jsx-5">
+                <div class="text-wrapper-5">belinda</div>
+                <div class="p-jsx"><div class="text-wrapper-7">28-10</div></div>
+              </div>
+              <img class="vector" src="img/vector.svg" />
+            </div>
+          </div>
+          <img class="icon-3" src="img/icon-7.svg" />
+          <img class="icon-4" src="img/icon-3.svg" />
+        </div>
+        <div class="button-lihat">
+          <div class="text-wrapper-8">Lihat selengkapnya</div>
+          <img class="SVG" src="img/SVG.svg" />
+        </div>
+        <img class="icon-5" src="img/icon-14.svg" />
+        <img class="icon-6" src="img/icon-12.svg" />
+        <img class="icon-7" src="img/icon-4.svg" />
+        <img class="icon-8" src="img/icon-5.svg" />
+        <img class="icon-9" src="img/icon-2.svg" />
+        <div class="div-wrapper"><div class="text-wrapper-9">Add Review</div></div>
+        <div class="overlap-2">
+          <div class="text-wrapper-10">Contact Us</div>
+          <div class="overlap-3">
+            <div class="text-wrapper-11">Terms and Conditions</div>
+            <div class="text-wrapper-12">Privacy Policy</div>
+          </div>
+          <div class="text-wrapper-13">About Us</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
