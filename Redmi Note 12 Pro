@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+        .smartphones {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.smartphones .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 3500px;
+  position: relative;
+}
+
+.smartphones .text-wrapper {
+  position: absolute;
+  width: 261px;
+  top: 3168px;
+  left: -580px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.smartphones .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 87px;
+  left: 0;
+  background-color: #000000;
+}
+
+.smartphones .frame {
+  position: relative;
+  height: 524px;
+  overflow: hidden;
+  overflow-x: scroll;
+  background-image: url(./img/desain-tanpa-judul-21-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.smartphones .desain-tanpa-judul {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 0;
+  left: 1440px;
+  object-fit: cover;
+}
+
+.smartphones .redmi-note {
+  position: absolute;
+  width: 408px;
+  top: 653px;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.smartphones .overlap-group {
+  position: absolute;
+  width: 1104px;
+  height: 802px;
+  top: 1282px;
+  left: 118px;
+}
+
+.smartphones .redmi-note-pro {
+  position: absolute;
+  width: 408px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.22px;
+  line-height: 24px;
+}
+
+.smartphones .penyimpanan-RAM {
+  position: absolute;
+  width: 1104px;
+  height: 771px;
+  top: 31px;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18.9px;
+  letter-spacing: 0.23px;
+  line-height: 29px;
+}
+
+.smartphones .span {
+  font-weight: 500;
+}
+
+.smartphones .text-wrapper-2 {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.smartphones .text-wrapper-3 {
+  position: absolute;
+  width: 473px;
+  top: 812px;
+  left: 118px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: -0.28px;
+  line-height: 24px;
+}
+
+.smartphones .xiaomi-redmi-note-wrapper {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 859px;
+  left: 118px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.smartphones .xiaomi-redmi-note {
+  position: absolute;
+  width: 212px;
+  height: 212px;
+  top: 95px;
+  left: 56px;
+  object-fit: cover;
+}
+
+.smartphones .heading-reviews-wrapper {
+  position: absolute;
+  width: 1440px;
+  height: 75px;
+  top: 2568px;
+  left: 0;
+  background-color: #000000;
+}
+
+.smartphones .heading-reviews {
+  position: absolute;
+  width: 154px;
+  height: 50px;
+  top: 11px;
+  left: 643px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 37.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 45.6px;
+  white-space: nowrap;
+}
+
+.smartphones .material-symbols {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 17px;
+  left: 17px;
+}
+
+.smartphones .overlap-2 {
+  position: absolute;
+  width: 1440px;
+  height: 326px;
+  top: 3174px;
+  left: 0;
+  background-color: #000000;
+}
+
+.smartphones .text-wrapper-4 {
+  position: absolute;
+  width: 146px;
+  top: 44px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.smartphones .overlap-3 {
+  position: absolute;
+  width: 319px;
+  height: 106px;
+  top: 149px;
+  left: 75px;
+}
+
+.smartphones .text-wrapper-5 {
+  position: absolute;
+  width: 319px;
+  top: 52px;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.smartphones .text-wrapper-6 {
+  position: absolute;
+  width: 194px;
+  top: 0;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.smartphones .text-wrapper-7 {
+  position: absolute;
+  width: 146px;
+  top: 97px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+        </style>
+  </head>
+  <body>
+    <div class="smartphones">
+      <div class="div">
+        <div class="text-wrapper">Show More</div>
+        <div class="overlap">
+          <div class="frame"><img class="desain-tanpa-judul" src="img/desain-tanpa-judul-20-1.png" /></div>
+        </div>
+        <div class="redmi-note">Redmi Note 12<br /><br />Rp2.099.000</div>
+        <div class="overlap-group">
+          <div class="redmi-note-pro">Redmi Note 12 Pro<br />Rp4.599.000</div>
+          <p class="penyimpanan-RAM">
+            <span class="span"><br /></span>
+            <span class="text-wrapper-2">Penyimpanan &amp; RAM<br /></span>
+            <span class="span"
+              >8GB+5GB<br />256GBLPDDR4X + UFS 2.2<br />Penyimpanan dan RAM yang tersedia kurang dari total memori
+              karena penyimpanan sistem operasi dan perangkat lunak yang diinstal sebelumnya pada perangkat.<br />Fitur
+              ekspansi RAM hingga 5GB<br
+            /></span>
+            <span class="text-wrapper-2">Desain<br /></span>
+            <span class="span"
+              >Tinggi : 162.9mm<br />Lebar : 76mm<br />Ketebalan : 7.9mm<br />Berat : 187g<br />Data disediakan oleh
+              laboratorium internal. Metode pengukuran industri dapat bervariasi, dan karena itu hasil sebenarnya
+              mungkin berbeda.<br
+            /></span>
+            <span class="text-wrapper-2">Layar</span>
+            <span class="span">
+              <br />Layar : 6.67&#34; FHD+ P-OLED<br />Refresh rate : Hingga 120Hz<br />Kecerahan : kecerahan puncak 900
+              nits (typ)<br />Rasio kontras : 5,000,000:1<br />Resolusi : 2400 x 1080 <br />Gamut warna lebar
+              DCI-P3Corning® Gorilla® Glass 5 protection <br />Mendukung Dolby Vision®<br
+            /></span>
+            <span class="text-wrapper-2">Baterai &amp; Pengisian Daya<br /></span>
+            <span class="span"
+              >Baterai 5000mAh (typ)<br />Pengisian daya turbo 67W<br />Pengisi daya 67W dalam kotak</span
+            >
+          </p>
+        </div>
+        <div class="text-wrapper-3">Rekomendasi Produk Serupa</div>
+        <div class="xiaomi-redmi-note-wrapper">
+          <img class="xiaomi-redmi-note" src="img/xiaomi-redmi-note-12-pro-glacier-blue-0-1-removebg-preview-1.png" />
+        </div>
+        <div class="heading-reviews-wrapper"><div class="heading-reviews">Reviews</div></div>
+        <a href="index.html">
+            <img class="material-symbols" src="IMK/home_button.jpg" />
+          </a>
+        <div class="overlap-2">
+          <div class="text-wrapper-4">Contact Us</div>
+          <div class="overlap-3">
+            <div class="text-wrapper-5">Terms and Conditions</div>
+            <div class="text-wrapper-6">Privacy Policy</div>
+          </div>
+          <div class="text-wrapper-7">About Us</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
