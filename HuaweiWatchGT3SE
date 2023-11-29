@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+        .tvs {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.tvs .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 3500px;
+  position: relative;
+}
+
+.tvs .group {
+  position: absolute;
+  width: 263px;
+  height: 50px;
+  top: 3169px;
+  left: -580px;
+}
+
+.tvs .text-wrapper {
+  position: absolute;
+  width: 261px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.tvs .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 87px;
+  left: 0;
+  background-color: #000000;
+}
+
+.tvs .huawei-watch-SE {
+  position: absolute;
+  width: 638px;
+  top: 648px;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.tvs .huawei-watch-pro {
+  position: absolute;
+  width: 408px;
+  top: 1277px;
+  left: 118px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.22px;
+  line-height: 24px;
+}
+
+.tvs .text-wrapper-2 {
+  position: absolute;
+  width: 473px;
+  top: 807px;
+  left: 118px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: -0.28px;
+  line-height: 24px;
+}
+
+.tvs .tahun-peluncuran {
+  position: absolute;
+  width: 1104px;
+  height: 499px;
+  top: 1377px;
+  left: 116px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18.9px;
+  letter-spacing: 0.23px;
+  line-height: 29px;
+}
+
+.tvs .span {
+  font-weight: 700;
+}
+
+.tvs .text-wrapper-3 {
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+}
+
+.tvs .overlap {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 854px;
+  left: 118px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.tvs .white-leather {
+  position: absolute;
+  width: 200px;
+  height: 254px;
+  top: 74px;
+  left: 62px;
+  object-fit: cover;
+}
+
+.tvs .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 75px;
+  top: 2563px;
+  left: 0;
+  background-color: #000000;
+}
+
+.tvs .heading-reviews {
+  position: absolute;
+  width: 154px;
+  height: 50px;
+  top: 11px;
+  left: 643px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 37.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 45.6px;
+  white-space: nowrap;
+}
+
+.tvs .material-symbols {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 17px;
+  left: 17px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="tvs">
+      <div class="div">
+        <div class="group"><div class="text-wrapper">Show More</div></div>
+        <div class="rectangle"></div>
+        <div class="huawei-watch-SE">Huawei Watch GT3 SE<br /><br />Rp4.779.000</div>
+        <div class="huawei-watch-pro">Huawei Watch GT3 Pro<br />Rp4.779.000</div>
+        <div class="text-wrapper-2">Rekomendasi Produk Serupa</div>
+        <p class="tahun-peluncuran">
+          <span class="span">Tahun peluncuran<br /></span>
+          <span class="text-wrapper-3">2023<br /></span>
+          <span class="span">Warna<br /></span>
+          <span class="text-wrapper-3">Graphite Black<br /></span>
+          <span class="span">Fitur<br /></span>
+          <span class="text-wrapper-3"
+            >GPS, GLONASS, Galileo, QZSS, dan BeiDou Kompas Altimeter yang selalu aktif Tahan air 5 ATM Sensor oksigen
+            darah (aplikasi Oksigen Darah) Sensor jantung elektrik (aplikasi EKG) Sensor jantung optik generasi ketiga
+            Darurat SOS Giroskop rentang dinamis tinggi Gerakan ketuk dua kali Sensor cahaya sekitar Speaker Mikrofon
+            Kapasitas 16 GB<br
+          /></span>
+          <span class="span">Layar<br /></span>
+          <span class="text-wrapper-3"
+            >Warna AMOLED 1.43 inci. Layar sentuh AMOLED mendukung gerakan geser dan sentuh. Wadah jam Warna Graphite
+            Black Bahan Serat Polimer Tahan Lama Tali Jam Graphite Black TPU Fiber<br
+          /></span>
+          <span class="span">Chip<br /></span>
+          <span class="text-wrapper-3">RAM 2 GB, ROM 16 GB<br /></span>
+          <span class="span">Konektivitas<br /></span>
+          <span class="text-wrapper-3">Bluetooth 5.1, Wi-Fi 4 802.11n<br /></span>
+          <span class="span">Daya<br /></span>
+          <span class="text-wrapper-3"
+            >Baterai lithium-ion bawaan yang dapat diisi ulang Hingga 14 hari dalam mode penggunaan normal
+            7DimensiTinggi: 46.4 mm Lebar: 46.4 mm Tebal: 11 mmBeratSekitar 35.6 gram (tanpa strap)<br
+          /></span>
+        </p>
+        <div class="overlap"><img class="white-leather" src="img/white-leather-removebg-preview-1.png" /></div>
+        <div class="overlap-group"><div class="heading-reviews">Reviews</div></div>
+        <img class="material-symbols" src="img/material-symbols-home.svg" />
+      </div>
+    </div>
+  </body>
+</html>
