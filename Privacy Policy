@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+        
+    </style>
+  </head>
+  <body>
+    <div class="privacy-policy">
+      <div class="div">
+        <div class="overlap">
+          <img class="contact-us" src="img/contact-us.png" />
+          <img class="contains" src="img/contains.png" />
+          <img class="nama" src="img/nama.png" />
+          <img class="alamat-email" src="img/alamat-email.png" />
+          <img
+            class="terakhir-diperbarui"
+            src="img/terakhir-diperbarui-13-november-2023-selamat-datang-di-looka-gadget-kami-berkomitmen-untuk-melindungi-privasi-pengguna-kami-kebijakan-privasi-ini-menjelaskan-bagaimana-kami-mengumpulkan-menggunakan-mengungkapkan-dan-melindungi-informasi-pribadi-yang-anda-berikan-saat-menggunakan-situs-ini-informasi-yang-kami-kumpulkan-informasi-pribadi-saat-anda-mengunjungi-atau-mendaftar-di-looka-gadget-kami-dapat-mengumpulkan-informasi-pribadi-seperti-nama-alamat-email-dan-informasi-kontak-lainnya-informasi-non-pribadi-kami-juga-dapat-mengumpulkan-informasi-non-pribadi-seperti-jenis-perangkat-browser-web-dan-data-demografis-pengguna-dengan-tujuan-meningkatkan-pengalaman-pengguna-bagaimana-kami-menggunakan-informasi-pelayanan-dan-fungsionalitas-kami-menggunakan-informasi-yang-kami-kumpulkan-untuk-menyediakan-layanan-dan-fungsi-situs-web-serta-untuk-memahami-dan-meningkatkan-pengalaman-pengguna-pemberitahuan-dan-kontak-kami-dapat-menggunakan-informasi-kontak-untuk-memberikan-pemberitahuan-terkait-layanan-perubahan-kebijakan-atau-untuk-tujuan-komunikasi-lainnya-bagaimana-kami-melindungi-informasi-anda-kami-mengambil-langkah-langkah-keamanan-yang-sesuai-untuk-melindungi-informasi-pribadi-pengguna-namun-kami-tidak-dapat-menjamin-keamanan-sepenuhnya-terhadap-akses-yang-tidak-sah-atau-kebocoran-data-pengungkapan-informasi-kami-tidak-akan-menjual-menyewakan-atau-memberikan-informasi-pribadi-anda-kepada-pihak-ketiga-tanpa-izin-anda-kecuali-diperlukan-oleh-hukum-pengaturan-cookie-kami-dapat-menggunakan-cookie-dan-teknologi-pelacakan-serupa-untuk-meningkatkan-pengalaman-pengguna-pengaturan-cookie-dapat-diubah-melalui-pengaturan-browser-anda-perubahan-pada-kebijakan-privasi-kami-dapat-memperbarui-kebijakan-privasi-ini-dari-waktu-ke-waktu-perubahan-tersebut-akan-diinformasikan-kepada-pengguna-dengan-cara-yang-sesuai-dengan-menggunakan-looka-gadget-anda-menyetujui-kebijakan-privasi-ini-jika-anda-tidak-setuju-dengan-kebijakan-ini-harap-berhenti-menggunakan-situs-web-kami-jika-anda-memiliki-pertanyaan-atau-kekhawatiran-terkait-privasi-silakan-hubungi-kami-di-alamat-email-kontak.png"
+          />
+        </div>
+        <img class="shape-with-text" src="img/shape-with-text.svg" />
+        <img class="img" src="img/image.svg" />
+        <img class="img-2" src="img/privacy-policy.png" />
+        <img class="material-symbols" src="img/material-symbols-home.svg" />
+        <div class="overlap-group">
+          <div class="text-wrapper">Contact Us</div>
+          <div class="overlap-2">
+            <div class="text-wrapper-2">Terms and Conditions</div>
+            <div class="text-wrapper-3">Privacy Policy</div>
+          </div>
+          <div class="text-wrapper-4">About Us</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
