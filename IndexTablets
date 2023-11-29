@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+        
+    </style>
+  </head>
+  <body>
+    <div class="tablets">
+      <div class="div">
+        <div class="overlap">
+          <div class="rectangle"></div>
+          <div class="text-wrapper">Best Seller</div>
+          <div class="frame">
+            <img class="performance-hero" src="img/performance-hero-cxya4f2p5euu-large-2x-1.png" />
+            <img class="desain-tanpa-judul" src="img/desain-tanpa-judul-36-1.png" />
+            <img class="galaxy-tab-series" src="img/galaxy-tab-s9-series-PCD-main-KV-family-1440x640-PC-1.png" />
+            <img class="image" src="img/image-3.png" />
+          </div>
+          <div class="rectangle-2"></div>
+          <div class="brands-tablets">
+            <div class="div-menu">
+              <div class="overlap-group">
+                <button class="button">
+                  <div class="overlap-group-2">
+                    <div class="span-menu-select"></div>
+                    <div class="text-wrapper-2">Brands</div>
+                  </div>
+                </button>
+                <img class="SVG" src="img/SVG-5.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="rating">
+            <div class="overlap-2">
+              <div class="text-wrapper-3">Rating</div>
+              <div class="button-2">
+                <div class="span-menu-select-2"></div>
+                <img class="img" src="img/SVG-3.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="harga">
+            <div class="div-menu">
+              <div class="overlap-group">
+                <button class="button">
+                  <div class="overlap-group-2">
+                    <div class="span-menu-select"></div>
+                    <div class="text-wrapper-2">Harga</div>
+                  </div>
+                </button>
+                <img class="SVG" src="img/SVG-2.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlap-3">
+          <img class="material-symbols" src="img/material-symbols-home.svg" />
+          <div class="text-wrapper-4">Tablets</div>
+        </div>
+        <div class="text-wrapper-5">New Arrival</div>
+        <div class="text-wrapper-6">All Products</div>
+        <div class="image-removebg-wrapper">
+          <img class="image-removebg" src="img/image-removebg-preview-11-1.png" />
+        </div>
+        <div class="overlap-4">
+          <div class="rectangle-3"></div>
+          <div class="rectangle-4"></div>
+          <div class="rectangle-5"></div>
+          <img class="image-removebg" src="img/image-removebg-preview-14-1.png" />
+          <img class="image-removebg-2" src="img/image-removebg-preview-17-1.png" />
+          <img class="image-removebg-3" src="img/image-removebg-preview-19-2.png" />
+        </div>
+        <div class="overlap-5">
+          <div class="rectangle-6"></div>
+          <div class="rectangle-7"></div>
+          <div class="rectangle-8"></div>
+          <img class="image-2" src="img/image-7.png" />
+          <img class="image-3" src="img/image-8.png" />
+        </div>
+        <div class="rectangle-9"></div>
+        <div class="overlap-6">
+          <img class="image-removebg-4" src="img/image-removebg-preview-11-2.png" />
+          <div class="overlap-7">
+            <img class="image-removebg-5" src="img/image-removebg-preview-17-2.png" />
+            <img class="image-4" src="img/image-9.png" />
+          </div>
+        </div>
+        <div class="div-country">
+          <div class="div-menu-2">
+            <div class="button-2">
+              <div class="span-menu-select-2"></div>
+              <img class="merek" src="img/merek.png" />
+            </div>
+            <img class="SVG-2" src="img/SVG-4.svg" />
+          </div>
+          <img class="merek-2" src="img/image.png" />
+          <div class="div-nv-country">
+            <div class="div-menu-3">
+              <div class="button-2"><div class="span-menu-select-3"></div></div>
+              <img class="SVG-3" src="img/image.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="div-menu-wrapper">
+          <div class="div-menu-3">
+            <div class="button-2"><div class="span-menu-select-3"></div></div>
+            <img class="SVG-4" src="img/SVG.svg" />
+          </div>
+        </div>
+        <div class="overlap-8">
+          <div class="text-wrapper-7">Contact Us</div>
+          <div class="overlap-9">
+            <div class="text-wrapper-8">Terms and Conditions</div>
+            <div class="text-wrapper-9">Privacy Policy</div>
+          </div>
+          <div class="text-wrapper-10">About Us</div>
+        </div>
+        <div class="overlap-10">
+          <div class="overlap-group-wrapper">
+            <div class="div-wrapper"><div class="text-wrapper-11">Selengkapnya</div></div>
+          </div>
+          <div class="text-wrapper-12">Huawei Matepad Pro<br />Ro6.999.000</div>
+          <div class="huawei-matepad">Huawei Matepad 11.5<br />Rp5.499.000</div>
+        </div>
+        <div class="overlap-11">
+          <div class="galaxy-tab-FE">Galaxy Tab S9 FE+<br />Rp10.999.000</div>
+          <div class="text-wrapper-12">Galaxy Tab S9 Ultra<br />Rp20.000.000-Rp22.000.000</div>
+          <div class="ipad-gen">Ipad 10th Gen<br />Rp14.999.000-Rp21.500.000</div>
+          <div class="ipad-pro">Ipad Pro<br />Rp14.999.000-Rp21.500.000</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
