@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+        .desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 3300px;
+  position: relative;
+}
+
+.desktop .overlap {
+  position: absolute;
+  width: 1461px;
+  height: 747px;
+  top: 75px;
+  left: -21px;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 223px;
+  left: 21px;
+  background-color: #000000;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  width: 285px;
+  top: 176px;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.desktop .frame {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 223px;
+  left: 21px;
+  overflow: hidden;
+  overflow-x: scroll;
+  background-image: url(./img/desain-tanpa-judul-35-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.desktop .desain-tanpa-judul {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 0;
+  left: 1440px;
+  object-fit: cover;
+}
+
+.desktop .galaxy-pro {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 0;
+  left: 2880px;
+}
+
+.desktop .image {
+  position: absolute;
+  width: 1440px;
+  height: 524px;
+  top: 0;
+  left: 4320px;
+}
+
+.desktop .rectangle-2 {
+  position: absolute;
+  width: 1440px;
+  height: 123px;
+  top: 0;
+  left: 21px;
+  background-color: #d9d9d9;
+}
+
+.desktop .brands-watch {
+  position: absolute;
+  width: 309px;
+  height: 159px;
+  top: 41px;
+  left: 139px;
+}
+
+.desktop .div-menu {
+  width: 308px;
+  height: 40px;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  height: 40px;
+  border-radius: 24px;
+}
+
+.desktop .button {
+  position: absolute;
+  width: 308px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+  border: 2px solid;
+  border-color: #000000;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.desktop .overlap-group-2 {
+  position: relative;
+  width: 234px;
+  height: 44px;
+  top: 4px;
+  left: 25px;
+}
+
+.desktop .span-menu-select {
+  position: absolute;
+  width: 234px;
+  height: 17px;
+  top: 8px;
+  left: 0;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  width: 171px;
+  top: 0;
+  left: 0;
+  font-family: "Inria Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.22px;
+  line-height: 24px;
+}
+
+.desktop .SVG {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  left: 268px;
+}
+
+.desktop .rating {
+  position: absolute;
+  width: 311px;
+  height: 237px;
+  top: 41px;
+  left: 1014px;
+}
+
+.desktop .overlap-2 {
+  position: relative;
+  width: 308px;
+  height: 49px;
+  left: 3px;
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  width: 171px;
+  top: 5px;
+  left: 25px;
+  font-family: "Inria Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.22px;
+  line-height: 24px;
+}
+
+.desktop .button-2 {
+  position: absolute;
+  width: 308px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+  border: 2px solid;
+  border-color: #000000;
+}
+
+.desktop .span-menu-select-2 {
+  position: absolute;
+  width: 234px;
+  height: 17px;
+  top: 12px;
+  left: 25px;
+}
+
+.desktop .img {
+  top: 12px;
+  left: 276px;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+}
+
+.desktop .harga {
+  position: absolute;
+  width: 309px;
+  height: 159px;
+  top: 41px;
+  left: 586px;
+}
+
+.desktop .overlap-3 {
+  position: absolute;
+  width: 1440px;
+  height: 75px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+}
+
+.desktop .material-symbols {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 13px;
+  left: 15px;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  width: 383px;
+  top: 22px;
+  left: 528px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.desktop .overlap-4 {
+  position: absolute;
+  width: 1360px;
+  height: 524px;
+  top: 957px;
+  left: 38px;
+  background-color: #000000;
+}
+
+.desktop .image-removebg {
+  top: 160px;
+  left: 120px;
+  position: absolute;
+  width: 225px;
+  height: 169px;
+  object-fit: cover;
+}
+
+.desktop .white-leather {
+  top: 117px;
+  left: 1035px;
+  position: absolute;
+  width: 200px;
+  height: 254px;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-5 {
+  position: absolute;
+  width: 285px;
+  top: 910px;
+  left: -21px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.desktop .text-wrapper-6 {
+  position: absolute;
+  width: 285px;
+  top: 1569px;
+  left: 577px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+}
+
+.desktop .overlap-5 {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 1667px;
+  left: 38px;
+  background-color: #000000;
+}
+
+.desktop .rectangle-3 {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+}
+
+.desktop .image-removebg-2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 102px;
+  left: 63px;
+  object-fit: cover;
+}
+
+.desktop .overlap-6 {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 1667px;
+  left: 383px;
+  background-color: #000000;
+}
+
+.desktop .image-removebg-3 {
+  top: 117px;
+  left: 50px;
+  position: absolute;
+  width: 225px;
+  height: 169px;
+  object-fit: cover;
+}
+
+.desktop .rectangle-wrapper {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 1667px;
+  left: 728px;
+  background-color: #000000;
+}
+
+.desktop .rectangle-4 {
+  height: 404px;
+  background-color: #000000;
+}
+
+.desktop .overlap-7 {
+  position: absolute;
+  width: 350px;
+  height: 404px;
+  top: 1667px;
+  left: 1061px;
+}
+
+.desktop .rectangle-5 {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 0;
+  left: 12px;
+  background-color: #000000;
+}
+
+.desktop .image-removebg-4 {
+  position: absolute;
+  width: 350px;
+  height: 224px;
+  top: 89px;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop .overlap-8 {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 2163px;
+  left: 48px;
+  background-color: #000000;
+}
+
+.desktop .white-leather-2 {
+  top: 75px;
+  left: 63px;
+  position: absolute;
+  width: 200px;
+  height: 254px;
+  object-fit: cover;
+}
+
+.desktop .overlap-9 {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 2163px;
+  left: 393px;
+  background-color: #000000;
+}
+
+.desktop .graphite-black {
+  position: absolute;
+  width: 200px;
+  height: 254px;
+  top: 74px;
+  left: 53px;
+  object-fit: cover;
+}
+
+.desktop .div-wrapper {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 2163px;
+  left: 738px;
+  background-color: #000000;
+}
+
+.desktop .rectangle-6 {
+  position: absolute;
+  width: 325px;
+  height: 404px;
+  top: 2163px;
+  left: 1083px;
+  background-color: #000000;
+}
+
+.desktop .div-country {
+  position: absolute;
+  width: 484px;
+  height: 40px;
+  top: -205px;
+  left: 65px;
+}
+
+.desktop .div-menu-2 {
+  position: absolute;
+  top: 0;
+  left: 66px;
+  width: 308px;
+  height: 40px;
+}
+
+.desktop .merek {
+  position: absolute;
+  width: 171px;
+  height: 44px;
+  top: 10632px;
+  left: -3451px;
+}
+
+.desktop .SVG-2 {
+  top: 10638px;
+  left: -3208px;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+}
+
+.desktop .merek-2 {
+  position: absolute;
+  width: 171px;
+  height: 44px;
+  top: 10633px;
+  left: -2883px;
+}
+
+.desktop .div-nv-country {
+  top: 1px;
+  left: 502px;
+  position: absolute;
+  width: 484px;
+  height: 40px;
+}
+
+.desktop .div-menu-3 {
+  position: relative;
+  width: 308px;
+  height: 40px;
+}
+
+.desktop .span-menu-select-3 {
+  position: relative;
+  width: 234px;
+  height: 17px;
+  top: 12px;
+  left: 25px;
+}
+
+.desktop .SVG-3 {
+  top: 10637px;
+  left: -3644px;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+}
+
+.desktop .div-menu-wrapper {
+  top: -204px;
+  left: 1020px;
+  position: absolute;
+  width: 484px;
+  height: 40px;
+}
+
+.desktop .SVG-4 {
+  top: 10637px;
+  left: -4097px;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+}
+
+.desktop .overlap-10 {
+  position: absolute;
+  width: 1440px;
+  height: 326px;
+  top: 2974px;
+  left: 0;
+  background-color: #000000;
+}
+
+.desktop .text-wrapper-7 {
+  position: absolute;
+  width: 146px;
+  top: 44px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-11 {
+  position: absolute;
+  width: 319px;
+  height: 106px;
+  top: 149px;
+  left: 75px;
+}
+
+.desktop .text-wrapper-8 {
+  position: absolute;
+  width: 319px;
+  top: 52px;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-9 {
+  position: absolute;
+  width: 194px;
+  top: 0;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-10 {
+  position: absolute;
+  width: 146px;
+  top: 97px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-12 {
+  position: absolute;
+  width: 900px;
+  height: 186px;
+  top: 2578px;
+  left: 49px;
+}
+
+.desktop .overlap-group-wrapper {
+  position: absolute;
+  width: 443px;
+  height: 174px;
+  top: 12px;
+  left: 457px;
+}
+
+.desktop .overlap-group-3 {
+  position: relative;
+  width: 307px;
+  height: 54px;
+  top: 33px;
+  left: 68px;
+  background-image: url(./img/rectangle-74.svg);
+  background-size: 100% 100%;
+}
+
+.desktop .text-wrapper-11 {
+  position: absolute;
+  width: 242px;
+  height: 24px;
+  top: 14px;
+  left: 36px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .huawei-watch-pro {
+  position: absolute;
+  width: 408px;
+  top: 3px;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.17px;
+  line-height: 24px;
+}
+
+.desktop .huawei-watch-gt-pro {
+  position: absolute;
+  width: 408px;
+  top: 0;
+  left: 344px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.17px;
+  line-height: 24px;
+}
+
+.desktop .overlap-13 {
+  position: absolute;
+  width: 1443px;
+  height: 53px;
+  top: 2078px;
+  left: 38px;
+}
+
+.desktop .samsung-galaxy {
+  position: absolute;
+  width: 408px;
+  top: 4px;
+  left: 345px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.17px;
+  line-height: 24px;
+}
+
+.desktop .samsung-galaxy-pro {
+  position: absolute;
+  width: 408px;
+  top: 7px;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.17px;
+  line-height: 24px;
+}
+
+.desktop .apple-watch-series {
+  position: absolute;
+  width: 408px;
+  top: 0;
+  left: 1035px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.17px;
+  line-height: 24px;
+}
+
+.desktop .apple-watch-SE {
+  position: absolute;
+  width: 408px;
+  top: 4px;
+  left: 693px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: -0.17px;
+  line-height: 24px;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="div">
+        <div class="overlap">
+          <div class="rectangle"></div>
+          <div class="rectangle"></div>
+          <div class="text-wrapper">Best Seller</div>
+          <div class="frame">
+            <img class="desain-tanpa-judul" src="img/desain-tanpa-judul-34-1.png" />
+            <img class="galaxy-pro" src="img/galaxy-watch5-pro-sustain-kv-1.png" />
+            <img class="image" src="img/image-2.png" />
+          </div>
+          <div class="rectangle-2"></div>
+          <div class="brands-watch">
+            <div class="div-menu">
+              <div class="overlap-group">
+                <button class="button">
+                  <div class="overlap-group-2">
+                    <div class="span-menu-select"></div>
+                    <div class="text-wrapper-2">Brands</div>
+                  </div>
+                </button>
+                <img class="SVG" src="img/SVG.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="rating">
+            <div class="overlap-2">
+              <div class="text-wrapper-3">Rating</div>
+              <div class="button-2">
+                <div class="span-menu-select-2"></div>
+                <img class="img" src="img/SVG-5.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="harga">
+            <div class="div-menu">
+              <div class="overlap-group">
+                <button class="button">
+                  <div class="overlap-group-2">
+                    <div class="span-menu-select"></div>
+                    <div class="text-wrapper-2">Harga</div>
+                  </div>
+                </button>
+                <img class="SVG" src="img/SVG-3.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlap-3">
+          <img class="material-symbols" src="img/material-symbols-home.svg" />
+          <div class="text-wrapper-4">Smart Watches</div>
+        </div>
+        <div class="overlap-4">
+          <img class="image-removebg" src="img/image-removebg-preview-36-3.png" />
+          <img class="white-leather" src="img/white-leather-removebg-preview-2.png" />
+        </div>
+        <div class="text-wrapper-5">New Arrival</div>
+        <div class="text-wrapper-6">All Products</div>
+        <div class="overlap-5">
+          <div class="rectangle-3"></div>
+          <img class="image-removebg-2" src="img/image-removebg-preview-37-2.png" />
+        </div>
+        <div class="overlap-6">
+          <div class="rectangle-3"></div>
+          <img class="image-removebg-3" src="img/image-removebg-preview-36-2.png" />
+        </div>
+        <div class="rectangle-wrapper"><div class="rectangle-4"></div></div>
+        <div class="overlap-7">
+          <div class="rectangle-5"></div>
+          <div class="rectangle-5"></div>
+          <img class="image-removebg-4" src="img/image-removebg-preview-34-2.png" />
+        </div>
+        <div class="overlap-8">
+          <div class="rectangle-3"></div>
+          <img class="white-leather-2" src="img/white-leather-removebg-preview-1.png" />
+        </div>
+        <div class="overlap-9">
+          <div class="rectangle-3"></div>
+          <img class="graphite-black" src="img/graphite-black-removebg-preview-1.png" />
+        </div>
+        <div class="div-wrapper"><div class="rectangle-4"></div></div>
+        <div class="rectangle-6"></div>
+        <div class="div-country">
+          <div class="div-menu-2">
+            <div class="button-2">
+              <div class="span-menu-select-2"></div>
+              <img class="merek" src="img/image.png" />
+            </div>
+            <img class="SVG-2" src="img/image.svg" />
+          </div>
+          <img class="merek-2" src="img/merek.png" />
+          <div class="div-nv-country">
+            <div class="div-menu-3">
+              <div class="button-2"><div class="span-menu-select-3"></div></div>
+              <img class="SVG-3" src="img/SVG-4.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="div-menu-wrapper">
+          <div class="div-menu-3">
+            <div class="button-2"><div class="span-menu-select-3"></div></div>
+            <img class="SVG-4" src="img/SVG-2.svg" />
+          </div>
+        </div>
+        <div class="overlap-10">
+          <div class="text-wrapper-7">Contact Us</div>
+          <div class="overlap-11">
+            <div class="text-wrapper-8">Terms and Conditions</div>
+            <div class="text-wrapper-9">Privacy Policy</div>
+          </div>
+          <div class="text-wrapper-10">About Us</div>
+        </div>
+        <div class="overlap-12">
+          <div class="overlap-group-wrapper">
+            <div class="overlap-group-3"><div class="text-wrapper-11">Selengkapnya</div></div>
+          </div>
+          <div class="huawei-watch-pro">Huawei Watch GT3 Pro<br />Rp4.779.000</div>
+          <div class="huawei-watch-gt-pro">Huawei Watch GT3 Pro<br />Rp4.779.000</div>
+        </div>
+        <div class="overlap-13">
+          <div class="samsung-galaxy">Samsung Galaxy Watch6<br />Rp3.999.000</div>
+          <div class="samsung-galaxy-pro">Samsung Galaxy 5 Pro<br />Rp6.499.000</div>
+          <div class="apple-watch-series">Apple Watch Series 9<br />Rp6.590.000</div>
+          <div class="apple-watch-SE">Apple Watch SE<br />Rp3.499.000</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
