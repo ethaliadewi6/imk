@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman</title>
+    <style>
+        .home {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  width: 1440px;
+  height: 1659px;
+  position: relative;
+}
+
+.home .tvs {
+  position: absolute;
+  width: 28px;
+  height: 14px;
+  top: 208px;
+  left: 829px;
+}
+
+.home .smartphones {
+  position: absolute;
+  width: 115px;
+  height: 19px;
+  top: 205px;
+  left: 308px;
+}
+
+.home .smart-watches {
+  position: absolute;
+  width: 129px;
+  height: 15px;
+  top: 205px;
+  left: 615px;
+}
+
+.home .tablets {
+  position: absolute;
+  width: 62px;
+  height: 15px;
+  top: 205px;
+  left: 491px;
+}
+
+.home .others {
+  position: absolute;
+  width: 57px;
+  height: 15px;
+  top: 205px;
+  left: 965px;
+}
+
+.home .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 211px;
+  top: 999px;
+  left: 0;
+  background-color: #000000;
+}
+
+.home .frame {
+  position: relative;
+  height: 211px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.home .image {
+  width: 1440px;
+  left: 2881px;
+  position: absolute;
+  height: 211px;
+  top: 0;
+}
+
+.home .img {
+  width: 1441px;
+  left: 1440px;
+  position: absolute;
+  height: 211px;
+  top: 0;
+}
+
+.home .image-2 {
+  width: 1440px;
+  left: 5761px;
+  position: absolute;
+  height: 211px;
+  top: 0;
+}
+
+.home .galaxy-common {
+  position: absolute;
+  width: 1440px;
+  height: 211px;
+  top: 0;
+  left: 4321px;
+}
+
+.home .galaxy-tab-series {
+  position: absolute;
+  width: 1440px;
+  height: 211px;
+  top: 0;
+  left: 0;
+}
+
+.home .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 175px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/rectangle-3.png);
+  background-size: 100% 100%;
+}
+
+.home .looka-gadget-journal {
+  position: absolute;
+  width: 311px;
+  height: 29px;
+  top: 64px;
+  left: 54px;
+}
+
+.home .overlap-2 {
+  position: absolute;
+  width: 142px;
+  height: 25px;
+  top: 58px;
+  left: 483px;
+}
+
+.home .vector {
+  position: absolute;
+  width: 25px;
+  height: 16px;
+  top: 9px;
+  left: 0;
+}
+
+.home .search-container {
+  position: absolute;
+  width: 142px;
+  top: 0;
+  right: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.34px;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.home .login {
+  position: absolute;
+  width: 51px;
+  height: 20px;
+  top: 67px;
+  left: 1293px;
+}
+
+.home .div-country {
+  position: absolute;
+  width: 484px;
+  height: 40px;
+  top: -385px;
+  left: 40px;
+}
+
+.home .div-menu {
+  position: relative;
+  width: 308px;
+  height: 40px;
+}
+
+.home .button {
+  position: absolute;
+  width: 308px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+  border: 1px solid;
+  border-color: #000000;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.home .span-menu-select {
+  position: relative;
+  width: 234px;
+  height: 17px;
+  top: 12px;
+  left: 25px;
+}
+
+.home .text-wrapper-2 {
+  position: absolute;
+  width: 180px;
+  height: 17px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .SVG {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 6195px;
+  left: -1385px;
+}
+
+.home .shape-with-text {
+  position: absolute;
+  width: 500px;
+  height: 40px;
+  top: 5853px;
+  left: -1143px;
+}
+
+.home .text-wrapper-3 {
+  position: absolute;
+  width: 285px;
+  height: 41px;
+  top: 927px;
+  left: 577px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: -0.14px;
+  line-height: 52px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-4 {
+  position: absolute;
+  width: 243px;
+  height: 38px;
+  top: 310px;
+  left: 21px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: -0.14px;
+  line-height: 52px;
+  white-space: nowrap;
+}
+
+.home .overlap-3 {
+  position: absolute;
+  width: 1440px;
+  height: 476px;
+  top: 367px;
+  left: 0;
+  background-color: #000000;
+  background-image: url(./img/frame-210.svg);
+  background-size: 100% 100%;
+}
+
+.home .overlap-group-2 {
+  position: absolute;
+  width: 1440px;
+  height: 326px;
+  top: 1333px;
+  left: 0;
+  background-color: #000000;
+}
+
+.home .text-wrapper-5 {
+  position: absolute;
+  width: 146px;
+  top: 44px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .overlap-4 {
+  position: absolute;
+  width: 319px;
+  height: 106px;
+  top: 149px;
+  left: 75px;
+}
+
+.home .text-wrapper-6 {
+  position: absolute;
+  width: 319px;
+  top: 52px;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-7 {
+  position: absolute;
+  width: 194px;
+  top: 0;
+  left: 0;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-8 {
+  position: absolute;
+  width: 146px;
+  top: 97px;
+  left: 75px;
+  transform: rotate(-0.42deg);
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="home">
+      <div class="navigation">
+        <a href="IndexTVs.html" class="tvs">TVs</a>
+        <a href="IndexSmartphone.html" class="smartphones">Smartphones</a>
+        <a href="IndexSmartWatches.html" class="smart-watches">Smart-Watches</a>
+        <a href="IndexTablets.html" class="tablets">Tablets</a>
+        <a href="IndexOthers.html" class="others">Others</a>
+        <div class="overlap">
+          <div class="frame">
+            <img class="image" src="img/image-10.png" />
+            <img class="img" src="img/image-5.png" />
+            <img class="image-2" src="img/image-2.png" />
+            <img class="galaxy-common" src="img/galaxy-s23-common-buynow-banner-2.png" />
+            <img class="galaxy-tab-series" src="IMK/Galaxy_Tab_S9.jpg" />
+          </div>
+        </div>
+        <div class="overlap-group">
+          <div class="looka-gadget-journal">Looka Gadget Journal</div>
+          <div class="overlap-2">
+            <img class="vector" src="img/vector.svg" />
+            <div class="search-container">
+            <form action="/search" method="get">
+              <input type="text" placeholder="Search" name="search">
+              <button type="submit">Search</button>
+            </form>
+          </div>
+          </div>
+          <a href="IndexOthers.html" class="login">Login</a>
+        </div>
+        <div class="div-country">
+          <div class="div-menu">
+            <button class="button">
+              <div class="span-menu-select"><div class="text-wrapper-2">Merek</div></div>
+            </button>
+            <img class="SVG" src="img/SVG.svg" />
+          </div>
+        </div>
+        <img class="shape-with-text" src="img/shape-with-text.svg" />
+        <div class="text-wrapper-3">Hot Products</div>
+        <div class="text-wrapper-4">NEW</div>
+        <div class="overlap-3"></div>
+        <div class="overlap-group-2">
+          <a href="ContactUs.html" class="text-wrapper-5">Contact Us</a>
+          <div class="overlap-4">
+            <a href="Terms and Conditions.html" class="text-wrapper-6">Terms and Conditions</a>
+            <a href="Privacy Policy.html" class="text-wrapper-7">Privacy Policy</a>
+          </div>
+          <a href="AboutUs.html" class="text-wrapper-8">About Us</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
